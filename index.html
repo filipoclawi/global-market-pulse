@@ -15,10 +15,12 @@
       <span class="brand-mark" aria-hidden="true"></span>
       <span>Global Market Pulse</span>
     </a>
-    <div class="update-pill" title="Market data refresh status">
+    <div class="update-pill" id="update-status" title="Market data refresh status">
       <span class="live-dot" aria-hidden="true"></span>
-      <span>Updated <strong id="updated-relative">—</strong></span>
+      <span>Checked <strong id="updated-relative">—</strong></span>
       <time id="updated-exact" datetime="">—</time>
+      <span id="data-as-of">Data through —</span>
+      <span id="stale-warning" hidden></span>
     </div>
   </header>
 
@@ -110,14 +112,14 @@
     <section class="methodology" aria-labelledby="method-title">
       <div><span class="section-index">04 / METHODOLOGY</span><h2 id="method-title">What the signal means</h2></div>
       <div class="method-grid">
-        <p><b>Equal weighted.</b> Every available market contributes equally, preventing the largest US benchmarks from dominating the global pulse.</p>
+        <p><b>Equal weighted.</b> The pulse compounds daily price returns across every active market, preventing the largest US benchmarks from dominating and avoiding jumps when a new history begins.</p>
         <p><b>Comparable.</b> Percentage changes are dimensionless, so currencies and index-point scales do not need conversion.</p>
         <p><b>Transparent proxies.</b> A visible “Proxy” tag marks index-tracking ETFs used where a dependable free benchmark history is unavailable.</p>
         <p><b>Market-day aware.</b> Date comparisons use each market’s closest close on or before the chosen date. Coverage is always displayed.</p>
       </div>
       <details>
         <summary>Data sources and limitations</summary>
-        <p id="source-note">Daily market data is fetched from Yahoo Finance. Values may be delayed. ETF proxies use adjusted closes to remove artificial stock-split jumps and can differ from their benchmarks because of distributions, fees, trading hours and tracking error. This dashboard is informational and not investment advice.</p>
+        <p id="source-note">Daily price data is fetched from Yahoo Finance and Eastmoney. Values may be delayed. ETF proxies can differ from their benchmarks because of fees, trading hours and tracking error. The World ex USA proxy follows the broader IMI version, which also includes small caps. This dashboard is informational and not investment advice.</p>
       </details>
     </section>
   </main>

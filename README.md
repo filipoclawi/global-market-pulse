@@ -4,9 +4,9 @@ A privacy-safe, static dashboard for ten global equity benchmarks. It refreshes 
 
 ## What it tracks
 
-- MSCI ACWI — iShares ACWI ETF proxy
+- MSCI ACWI
 - S&P 500
-- MSCI World ex USA — iShares UCITS ETF proxy
+- MSCI World ex USA — iShares IDEV ETF proxy (broader MSCI World ex USA IMI)
 - Russell 2000
 - STOXX Europe 600
 - TOPIX — Listed Index Fund TOPIX ETF proxy
@@ -31,9 +31,10 @@ Open <http://localhost:8000>.
 
 ## Methodology
 
-- Daily closes are fetched from Yahoo Finance's public chart endpoint. ETF proxies use adjusted closes so stock splits do not create false market moves.
+- Daily price closes are fetched from Yahoo Finance and Eastmoney public chart endpoints.
 - “Average change” is the equal-weighted arithmetic mean of each available market's percentage change from the closest market close on or before the chosen date to its latest close.
 - Markets without history on the chosen date are excluded and coverage is shown.
-- ETF proxies are used only when reliable free historical index feeds are unavailable.
+- The historical pulse compounds equal-weighted daily price returns. A newly available series joins without changing the level on its entry date, avoiding artificial jumps from constituent-history changes.
+- ETF proxies are used only when reliable free historical index feeds are unavailable. The World ex USA proxy follows the broader IMI benchmark, which also includes small caps.
 
 Data is informational and may be delayed. It is not investment advice.

@@ -27,7 +27,7 @@
     const points = series.points || [];
     const base = findBasePoint(points, targetDate);
     const latest = points.length ? points[points.length - 1] : null;
-    if (!base || !latest || base[0] === latest[0]) return null;
+    if (!base || !latest) return null;
     return { id: series.id, name: series.name, baseDate: base[0], latestDate: latest[0], change: changePct(base[1], latest[1]) };
   }
 
@@ -85,17 +85,27 @@
   function aggregateHistory(seriesList, startDate, maxPoints = 700) {
     const prepared = seriesList.map(s => {
       const pts = slicePoints(s.points || [], startDate);
-      return pts.length ? { points: pts, base: pts[0][1] } : null;
+      if (pts.length < 2) return null;
+      const returns = new Map();
+      for (let i = 1; i < pts.length; i++) {
+        const daily = changePct(pts[i - 1][1], pts[i][1]);
+        if (Number.isFinite(daily)) returns.set(pts[i][0], daily);
+      }
+      return { firstDate: pts[0][0], returns };
     }).filter(Boolean);
-    let dates = [...new Set(prepared.flatMap(s => s.points.map(p => p[0])))].sort();
-    dates = downsample(dates.map(d => [d, 0]), maxPoints).map(p => p[0]);
-    return dates.map(date => {
-      const values = prepared.map(s => {
-        const p = findBasePoint(s.points, date);
-        return p && s.base ? (p[1] / s.base) * 100 : null;
-      }).filter(Number.isFinite);
-      return values.length >= 3 ? [date, values.reduce((a, b) => a + b, 0) / values.length] : null;
-    }).filter(Boolean);
+    const dates = [...new Set(prepared.flatMap(s => [...s.returns.keys()]))]
+      .filter(date => !startDate || date >= startDate).sort();
+    let level = 100, started = false;
+    const history = [];
+    for (const date of dates) {
+      const active = prepared.filter(s => s.firstDate <= date);
+      if (active.length < 3) continue;
+      const meanReturn = active.reduce((sum, s) => sum + (s.returns.get(date) || 0), 0) / active.length;
+      if (!started) { history.push([date, level]); started = true; continue; }
+      level *= 1 + (meanReturn / 100);
+      history.push([date, level]);
+    }
+    return downsample(history, maxPoints);
   }
 
   function oneYearAgo(latestDate) {

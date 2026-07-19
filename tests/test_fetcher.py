@@ -1,4 +1,5 @@
 import importlib.util,sys,unittest
+from unittest import mock
 from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -16,7 +17,15 @@ class FetcherTests(unittest.TestCase):
   stamps=[1609459200+i*86400 for i in range(40)];closes=[100+i for i in range(40)]
   payload['chart']['result'][0]['timestamp']=stamps;payload['chart']['result'][0]['indicators']['quote'][0]['close']=closes
   points=fetcher.parse_chart(payload,{'symbol':'TEST'});self.assertEqual(40,len(points));self.assertEqual(100.0,points[0][1]);self.assertEqual(139.0,points[-1][1])
+ def test_parse_eastmoney_daily_rows(self):
+  rows=[f"2024-01-{i+1:02d},1,{100+i},2,0" for i in range(30)]
+  points=fetcher.parse_eastmoney({'data':{'klines':rows}},{'providerSymbol':'1.000300'})
+  self.assertEqual(30,len(points));self.assertEqual(100.0,points[0][1]);self.assertEqual(129.0,points[-1][1])
  def test_validation_rejects_missing_series(self):
-  with self.assertRaises(ValueError):fetcher.validate_document({'schemaVersion':1,'indices':[]})
+  with self.assertRaises(ValueError):fetcher.validate_document({'schemaVersion':2,'generatedAt':'2026-01-01T00:00:00Z','dataAsOf':'2025-12-31','indices':[]})
+ def test_total_upstream_failure_does_not_claim_freshness(self):
+  existing={'updatedAt':'2026-01-01T00:00:00Z','indices':[{'id':m['id']} for m in fetcher.MARKETS]}
+  with mock.patch.object(fetcher,'fetch_market',side_effect=fetcher.FetchError('offline')):
+   with self.assertRaises(fetcher.FetchError):fetcher.build_document(existing,datetime(2026,1,2,tzinfo=timezone.utc))
 
 if __name__=='__main__':unittest.main()

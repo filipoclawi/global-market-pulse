@@ -2,15 +2,20 @@
   'use strict';
   const COLORS = ['#63e6be','#74c0fc','#ffd43b','#ff8787','#b197fc','#ffa94d','#66d9e8','#8ce99a','#f783ac','#a9e34b'];
   const RANGE_MAX_POINTS = 900;
-  let payload, pulseChart, comparisonChart;
+  let payload, pulseChart, comparisonChart, sparkCharts = [];
   let activeRange = '1Y';
 
   const $ = id => document.getElementById(id);
   const pct = value => value == null ? '—' : `${value >= 0 ? '+' : ''}${value.toFixed(2)}%`;
   const level = value => value == null ? '—' : new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(value);
-  const dateLabel = value => new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(new Date(value + 'T00:00:00Z'));
+  const dateLabel = value => {
+    if (!value) return '—';
+    const date = new Date(value + 'T00:00:00Z');
+    return Number.isNaN(date.getTime()) ? '—' : new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(date);
+  };
   const cssSign = value => value > 0 ? 'positive' : value < 0 ? 'negative' : 'flat';
   const latestDate = () => payload.indices.map(s => s.points.at(-1)?.[0]).filter(Boolean).sort().at(-1);
+  const chartReferenceDate = () => payload.dataAsOf || latestDate();
 
   function chartDefaults() {
     Chart.defaults.color = '#8f98a8';
@@ -29,24 +34,32 @@
           callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}` } }
       },
       scales: {
-        x: { grid: { display: false }, ticks: { maxTicksLimit: window.innerWidth < 600 ? 4 : 7, maxRotation: 0, callback(value) { const raw = this.getLabelForValue(value); return raw ? raw.slice(0, 7) : ''; } } },
-        y: { position: 'right', grid: { color: 'rgba(255,255,255,.06)' }, ticks: { callback: v => v.toFixed(0) } }
+        x: { grid: { display: false }, ticks: { maxTicksLimit: window.innerWidth < 600 ? 4 : 7, maxRotation: 0, callback(value) { const raw = this.getLabelForValue(value); return raw ? (['1D','5D','1M'].includes(activeRange) ? raw.slice(5) : raw.slice(0, 7)) : ''; } } },
+        y: { position: 'right', grid: { color: 'rgba(255,255,255,.06)' }, ticks: { callback: v => Number(v).toFixed(['1D','5D'].includes(activeRange) ? 1 : 0) } }
       },
       elements: { point: { radius: 0, hoverRadius: 4 }, line: { borderWidth: 2, tension: .08 } }
     };
   }
 
   function renderUpdateTime() {
-    const date = new Date(payload.updatedAt);
-    $('updated-exact').dateTime = payload.updatedAt;
+    const generatedAt = payload.generatedAt || payload.updatedAt;
+    const date = new Date(generatedAt);
+    $('updated-exact').dateTime = generatedAt;
     $('updated-exact').textContent = new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'UTC', timeZoneName: 'short' }).format(date);
     const mins = Math.max(0, Math.round((Date.now() - date.getTime()) / 60000));
     $('updated-relative').textContent = mins < 2 ? 'just now' : mins < 60 ? `${mins}m ago` : mins < 1440 ? `${Math.round(mins/60)}h ago` : `${Math.round(mins/1440)}d ago`;
+    $('data-as-of').textContent = `Data through ${dateLabel(payload.dataAsOf || latestDate())}`;
+    const staleCount = payload.staleSeries?.length || 0;
+    $('stale-warning').hidden = staleCount === 0;
+    $('stale-warning').textContent = staleCount ? `${staleCount} source${staleCount === 1 ? '' : 's'} stale` : '';
+    $('update-status').classList.toggle('has-stale', staleCount > 0);
     $('market-count').textContent = payload.indices.length;
   }
 
   function renderMetrics() {
-    const selected = $('comparison-date').value;
+    const input = $('comparison-date');
+    const selected = input.value || MarketMath.oneYearAgo(latestDate());
+    if (!input.value) input.value = selected;
     const stats = MarketMath.aggregateChanges(payload.indices, selected);
     $('average-change').textContent = pct(stats.mean);
     $('average-change').className = cssSign(stats.mean);
@@ -62,6 +75,8 @@
   }
 
   function renderCards(changes) {
+    sparkCharts.forEach(chart => chart.destroy());
+    sparkCharts = [];
     $('market-grid').innerHTML = payload.indices.map((s, index) => {
       const latest = s.points.at(-1), move = s.latest?.dayChangePct, selected = changes.get(s.id);
       return `<article class="market-card" data-market="${s.id}">
@@ -77,15 +92,15 @@
       </article>`;
     }).join('');
     payload.indices.forEach((s, i) => {
-      const pts = MarketMath.downsample(MarketMath.slicePoints(s.points, MarketMath.rangeStart('1Y', latestDate())), 150);
-      new Chart($(`spark-${s.id}`), { type: 'line', data: { labels: pts.map(p=>p[0]), datasets: [{ data: pts.map(p=>p[1]), borderColor: COLORS[i], fill: false }] }, options: {
+      const pts = MarketMath.downsample(MarketMath.slicePoints(s.points, MarketMath.rangeStart('1Y', chartReferenceDate())), 150);
+      sparkCharts.push(new Chart($(`spark-${s.id}`), { type: 'line', data: { labels: pts.map(p=>p[0]), datasets: [{ data: pts.map(p=>p[1]), borderColor: COLORS[i], fill: false }] }, options: {
         responsive:true, maintainAspectRatio:false, animation:false, plugins:{legend:{display:false},tooltip:{enabled:false}}, scales:{x:{display:false},y:{display:false}}, elements:{point:{radius:0},line:{borderWidth:1.7,tension:.2}}
-      }});
+      }}));
     });
   }
 
   function renderCharts() {
-    const start = MarketMath.rangeStart(activeRange, latestDate());
+    const start = MarketMath.rangeStart(activeRange, chartReferenceDate());
     const pulse = MarketMath.aggregateHistory(payload.indices, start, RANGE_MAX_POINTS);
     if (pulseChart) pulseChart.destroy();
     pulseChart = new Chart($('pulse-chart'), { type:'line', data:{ labels:pulse.map(p=>p[0]), datasets:[{label:'Global pulse',data:pulse.map(p=>p[1]),borderColor:'#63e6be',backgroundColor:'rgba(99,230,190,.08)',fill:true}] }, options:lineOptions(false) });
@@ -97,7 +112,7 @@
     if (comparisonChart) comparisonChart.destroy();
     const opts = lineOptions(true);
     opts.scales.x.type='linear';
-    opts.scales.x.ticks.callback = value => new Date(value).toISOString().slice(0,7);
+    opts.scales.x.ticks.callback = value => { const iso = new Date(value).toISOString(); return ['1D','5D','1M'].includes(activeRange) ? iso.slice(5,10) : iso.slice(0,7); };
     opts.plugins.tooltip.callbacks.title = items => items.length ? new Date(items[0].parsed.x).toISOString().slice(0,10) : '';
     comparisonChart = new Chart($('comparison-chart'), { type:'line', data:{datasets}, options:opts });
   }
@@ -115,8 +130,14 @@
       document.querySelectorAll('[data-range]').forEach(b => { const active=b===button; b.classList.toggle('active',active); b.setAttribute('aria-pressed',String(active)); });
       renderCharts();
     });
-    $('comparison-date').addEventListener('change', () => { const changes=renderMetrics(); renderCards(changes); });
-    $('reset-date').addEventListener('click', () => { $('comparison-date').value=MarketMath.oneYearAgo(latestDate()); $('comparison-date').dispatchEvent(new Event('change')); });
+    $('comparison-date').addEventListener('change', () => {
+      const input = $('comparison-date');
+      if (!input.value) input.value = MarketMath.oneYearAgo(chartReferenceDate());
+      if (input.value < input.min) input.value = input.min;
+      if (input.value > input.max) input.value = input.max;
+      const changes=renderMetrics(); renderCards(changes);
+    });
+    $('reset-date').addEventListener('click', () => { $('comparison-date').value=MarketMath.oneYearAgo(chartReferenceDate()); $('comparison-date').dispatchEvent(new Event('change')); });
   }
 
   async function init() {
@@ -127,7 +148,7 @@
       if (!payload.indices?.length) throw new Error('No market series');
       chartDefaults(); renderUpdateTime();
       const maxDate=latestDate(), minDate=payload.indices.flatMap(s=>s.points[0]?.[0]||[]).sort()[0];
-      $('comparison-date').max=maxDate; $('comparison-date').min=minDate; $('comparison-date').value=MarketMath.oneYearAgo(maxDate);
+      $('comparison-date').max=maxDate; $('comparison-date').min=minDate; $('comparison-date').value=MarketMath.oneYearAgo(chartReferenceDate());
       bindControls(); renderAll();
       document.documentElement.dataset.ready='true';
     } catch (error) {
