@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');const M=require('../assets/market.js');
+const sample=[{id:'a',name:'A',points:[['2024-01-02',100],['2024-01-03',110],['2025-01-02',121]]},{id:'b',name:'B',points:[['2024-01-02',200],['2025-01-02',180]]}];
+assert.deepEqual(M.findBasePoint(sample[0].points,'2024-01-02'),['2024-01-02',100]);
+assert.equal(M.findBasePoint(sample[0].points,'2023-01-01'),null);
+assert.ok(Math.abs(M.changePct(100,121)-21)<1e-10);
+const stats=M.aggregateChanges(sample,'2024-01-02');assert.equal(stats.coverage,2);assert.equal(stats.advancing,1);assert.ok(Math.abs(stats.mean-5.5)<1e-10);assert.ok(Math.abs(stats.median-5.5)<1e-10);assert.equal(stats.leader.name,'A');
+assert.equal(M.rangeStart('YTD','2026-07-18'),'2026-01-01');assert.equal(M.oneYearAgo('2026-07-18'),'2025-07-18');
+const rebased=M.rebase([['a',4],['b',6]]);assert.deepEqual(rebased,[['a',100],['b',150]]);
+const history=M.aggregateHistory([...sample,{id:'c',name:'C',points:[['2024-01-02',300],['2025-01-02',300]]}],'2024-01-02',100);assert.ok(history.length>=2);assert.equal(history[0][1],100);
+console.log('market math tests passed');

@@ -1,0 +1,8 @@
+__pycache__/
+.hermes/
+*.pyc
+.DS_Store
+dist/
+playwright-report/
+test-results/
+test-results-*.png

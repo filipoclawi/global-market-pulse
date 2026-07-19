@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A global equity market dashboard tracking ten major benchmarks.">
+  <meta name="theme-color" content="#0a0c10">
+  <title>Global Market Pulse</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Global Market Pulse home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Global Market Pulse</span>
+    </a>
+    <div class="update-pill" title="Market data refresh status">
+      <span class="live-dot" aria-hidden="true"></span>
+      <span>Updated <strong id="updated-relative">—</strong></span>
+      <time id="updated-exact" datetime="">—</time>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow">Ten benchmarks · six regions · one signal</div>
+      <h1 id="hero-title">The world market,<br><em>at a glance.</em></h1>
+      <p class="hero-copy">An equal-weighted view across the world’s major equity markets, from large-cap America to emerging Asia and Latin America.</p>
+      <div class="hero-meta">
+        <span><b id="market-count">10</b> markets</span>
+        <span><b>~6h</b> refresh cycle</span>
+        <span><b>Daily</b> closing data</span>
+      </div>
+    </section>
+
+    <section class="control-deck" aria-label="Dashboard controls">
+      <div class="range-control">
+        <span class="control-label">Time horizon</span>
+        <div class="segmented" id="range-buttons" role="group" aria-label="Chart time period">
+          <button data-range="1D">1D</button><button data-range="5D">5D</button>
+          <button data-range="1M">1M</button><button data-range="3M">3M</button>
+          <button data-range="6M">6M</button><button data-range="YTD">YTD</button>
+          <button class="active" data-range="1Y" aria-pressed="true">1Y</button>
+          <button data-range="3Y">3Y</button><button data-range="5Y">5Y</button>
+          <button data-range="MAX">Max</button>
+        </div>
+      </div>
+      <div class="date-control">
+        <label for="comparison-date">Compare latest with</label>
+        <div class="date-input-wrap">
+          <input id="comparison-date" type="date" aria-describedby="comparison-help">
+          <button id="reset-date" type="button">1 year ago</button>
+        </div>
+        <span id="comparison-help">Uses the closest market close on or before this date.</span>
+      </div>
+    </section>
+
+    <section class="pulse-grid" aria-label="Global aggregate metrics">
+      <article class="metric-card metric-primary">
+        <span class="metric-label">Average change</span>
+        <strong id="average-change">—</strong>
+        <span id="average-period" class="metric-detail">versus selected date</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Markets advancing</span>
+        <strong id="advancing-count">—</strong>
+        <span id="coverage-detail" class="metric-detail">—</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">Median change</span>
+        <strong id="median-change">—</strong>
+        <span class="metric-detail">middle market</span>
+      </article>
+      <article class="metric-card leader-card">
+        <span class="metric-label">Leader</span>
+        <strong id="leader-name">—</strong>
+        <span id="leader-change" class="metric-detail">—</span>
+      </article>
+    </section>
+
+    <section class="chart-panel chart-feature" aria-labelledby="pulse-title">
+      <div class="panel-heading">
+        <div>
+          <span class="section-index">01 / GLOBAL PULSE</span>
+          <h2 id="pulse-title">Equal-weight market pulse</h2>
+        </div>
+        <div class="chart-key"><span></span>Rebased to 100</div>
+      </div>
+      <div class="chart-frame large"><canvas id="pulse-chart" aria-label="Equal-weight global market pulse chart" role="img"></canvas></div>
+    </section>
+
+    <section class="section-heading">
+      <div><span class="section-index">02 / SCOREBOARD</span><h2>Markets today</h2></div>
+      <p>Latest close, daily move and change from your selected comparison date.</p>
+    </section>
+    <section id="market-grid" class="market-grid" aria-live="polite"></section>
+
+    <section class="chart-panel" aria-labelledby="compare-title">
+      <div class="panel-heading">
+        <div>
+          <span class="section-index">03 / RELATIVE PERFORMANCE</span>
+          <h2 id="compare-title">All markets, one starting line</h2>
+        </div>
+        <p>Each series is rebased to 100 at the beginning of the selected range.</p>
+      </div>
+      <div class="chart-frame"><canvas id="comparison-chart" aria-label="Relative performance comparison chart" role="img"></canvas></div>
+    </section>
+
+    <section class="methodology" aria-labelledby="method-title">
+      <div><span class="section-index">04 / METHODOLOGY</span><h2 id="method-title">What the signal means</h2></div>
+      <div class="method-grid">
+        <p><b>Equal weighted.</b> Every available market contributes equally, preventing the largest US benchmarks from dominating the global pulse.</p>
+        <p><b>Comparable.</b> Percentage changes are dimensionless, so currencies and index-point scales do not need conversion.</p>
+        <p><b>Transparent proxies.</b> A visible “Proxy” tag marks index-tracking ETFs used where a dependable free benchmark history is unavailable.</p>
+        <p><b>Market-day aware.</b> Date comparisons use each market’s closest close on or before the chosen date. Coverage is always displayed.</p>
+      </div>
+      <details>
+        <summary>Data sources and limitations</summary>
+        <p id="source-note">Daily market data is fetched from Yahoo Finance. Values may be delayed. ETF proxies use adjusted closes to remove artificial stock-split jumps and can differ from their benchmarks because of distributions, fees, trading hours and tracking error. This dashboard is informational and not investment advice.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <span>Global Market Pulse</span>
+    <span>Public data · no accounts · no tracking</span>
+  </footer>
+
+  <div id="error-banner" class="error-banner" role="alert" hidden>Market data could not be loaded. Please try again shortly.</div>
+  <script src="assets/vendor/chart.umd.min.js"></script>
+  <script src="assets/market.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
