@@ -77,10 +77,11 @@
   function renderCards(changes) {
     sparkCharts.forEach(chart => chart.destroy());
     sparkCharts = [];
+    const staleIds = new Set((payload.staleSeries || []).map(item => item.id));
     $('market-grid').innerHTML = payload.indices.map((s, index) => {
       const latest = s.points.at(-1), move = s.latest?.dayChangePct, selected = changes.get(s.id);
       return `<article class="market-card" data-market="${s.id}">
-        <div class="market-top"><span class="market-number">${String(index + 1).padStart(2,'0')}</span>${s.kind === 'proxy' ? '<span class="proxy-badge">Proxy</span>' : '<span class="index-badge">Index</span>'}</div>
+        <div class="market-top"><span class="market-number">${String(index + 1).padStart(2,'0')}</span><span class="market-badges">${s.kind === 'proxy' ? '<span class="proxy-badge">Proxy</span>' : '<span class="index-badge">Index</span>'}${staleIds.has(s.id) ? '<span class="stale-badge">Stale</span>' : ''}</span></div>
         <div class="market-name"><h3>${s.name}</h3><span>${s.region}</span></div>
         <div class="market-level"><strong>${level(latest?.[1])}</strong><span>${s.currency || ''}</span></div>
         <div class="market-changes">
