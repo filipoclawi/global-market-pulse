@@ -82,11 +82,13 @@
           <button class="star-toggle" type="button" aria-label="${isStarred ? 'Remove star' : 'Add star'}: ${escapeHtml(story.title)}" aria-pressed="${isStarred}" title="${isStarred ? 'Remove star' : 'Add star'}">${isStarred ? '★' : '☆'}</button>
         </div>
       </div>
+      <div class="story-source-row">
+        <a class="source-link" href="${safeUrl(story.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source · ${escapeHtml(story.sourceLabel)} <span aria-hidden="true">↗</span></a>
+      </div>
       <div id="story-body-${escapeHtml(story.id)}" class="story-body" ${isExpanded ? '' : 'hidden'}>
         <div class="story-tags">${tags}</div>
         <p>${escapeHtml(story.summary)}</p>
         <div class="long-term-lens"><b>Long-term lens</b><p>${escapeHtml(story.whyItMatters)}</p></div>
-        <a class="source-link" href="${safeUrl(story.sourceUrl)}" target="_blank" rel="noopener noreferrer">Read the source · ${escapeHtml(story.sourceLabel)} <span aria-hidden="true">↗</span></a>
       </div>
     </article>`;
   }

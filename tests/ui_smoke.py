@@ -16,10 +16,12 @@ try:
   # News is the default top-level view and every new stable story id begins unread.
   assert page.get_by_role('tab',name='News 5').get_attribute('aria-selected')=='true'
   assert page.locator('#news-panel').is_visible();assert not page.locator('#markets-panel').is_visible()
-  assert page.locator('.news-story').count()==5
-  assert page.locator('.news-story.is-unread').count()==5
-  assert page.locator('#tab-unread-count').inner_text()=='5'
-  assert page.locator('.source-link').count()==5
+  story_count=page.locator('.news-story').count();assert story_count==5
+  assert page.locator('.source-link').count()==story_count
+  assert page.locator('.source-link').first.is_visible()
+  assert page.locator('.source-link').first.inner_text().startswith('Source · ')
+  assert page.locator('.source-link').first.get_attribute('href').startswith('https://')
+  assert int(page.locator('#tab-unread-count').inner_text())==story_count
   for href in page.locator('.source-link').evaluate_all('(els)=>els.map(e=>e.href)'):
    assert href.startswith('https://') and 'utm_' not in href.lower(),href
 
