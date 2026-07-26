@@ -11,7 +11,8 @@ The default `News` tab keeps a small rolling set of high-signal economic stories
 - Stars create a local saved collection; stories that leave the weekly inbox remain available to that collection for up to 180 days.
 - Read and star state stays only in the visitor's browser via `localStorage`; it is never uploaded and there are no accounts or analytics.
 - The generated artifact combines a reviewed editorial seed with strictly ranked releases and reports from the Federal Reserve, European Central Bank, U.S. Bureau of Economic Analysis, Bank of England, NPR and BBC News.
-- Feed failures preserve the last valid artifact. `checkedAt` is kept separate from the latest story date so a refresh does not imply that a new story was published.
+- Feed failures preserve the last valid artifact without blocking market-data deployment. A failed or underfilled refresh is written as an explicit stale-briefing state; `checkedAt`, `lastAttemptAt` and the latest story date remain separate.
+- Automated story identity is based on the cleaned canonical source URL, so headline corrections and tracking-query changes do not reset read/star state.
 
 ## What it tracks
 

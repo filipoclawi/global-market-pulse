@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-07-26T07:03:37Z",
-  "checkedAt": "2026-07-26T07:13:17Z",
+  "checkedAt": "2026-07-26T07:21:23Z",
+  "lastAttemptAt": "2026-07-26T07:21:23Z",
   "dataAsOf": "2026-07-25",
   "windowStart": "2026-07-16",
   "refreshCadenceHours": 6,
@@ -14,6 +15,8 @@
     "BBC News"
   ],
   "staleSources": [],
+  "briefingStale": false,
+  "freshStoryCount": 5,
   "stories": [
     {
       "id": "us-tariffs-reset-2026-07",

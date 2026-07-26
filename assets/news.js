@@ -78,8 +78,8 @@
           <span class="story-chevron" aria-hidden="true">⌄</span>
         </button>
         <div class="story-actions">
-          <button class="read-toggle" type="button" aria-label="${isRead ? 'Mark unread' : 'Mark read'}" title="${isRead ? 'Mark unread' : 'Mark read'}">${isRead ? '↶' : '✓'}</button>
-          <button class="star-toggle" type="button" aria-label="${isStarred ? 'Remove star' : 'Add star'}" aria-pressed="${isStarred}" title="${isStarred ? 'Remove star' : 'Add star'}">${isStarred ? '★' : '☆'}</button>
+          <button class="read-toggle" type="button" aria-label="${isRead ? 'Mark unread' : 'Mark read'}: ${escapeHtml(story.title)}" title="${isRead ? 'Mark unread' : 'Mark read'}">${isRead ? '↶' : '✓'}</button>
+          <button class="star-toggle" type="button" aria-label="${isStarred ? 'Remove star' : 'Add star'}: ${escapeHtml(story.title)}" aria-pressed="${isStarred}" title="${isStarred ? 'Remove star' : 'Add star'}">${isStarred ? '★' : '☆'}</button>
         </div>
       </div>
       <div id="story-body-${escapeHtml(story.id)}" class="story-body" ${isExpanded ? '' : 'hidden'}>
@@ -90,18 +90,30 @@
       </div>
     </article>`;
   }
-  function renderStories() {
+  function renderStories(focus = {}) {
     const stories = visibleStories();
     $('news-list').innerHTML = stories.map(storyMarkup).join('');
     $('news-empty').hidden = stories.length > 0;
+    if (!stories.length) {
+      const copy = activeFilter === 'unread' ? ['You’re all caught up.','There are no unread stories in this briefing.'] : activeFilter === 'starred' ? ['No starred stories yet.','Use the star beside an article to save it for up to six months.'] : ['No news is available right now.','The last valid briefing will return when sources recover.'];
+      $('news-empty').querySelector('strong').textContent = copy[0]; $('news-empty').querySelector('span').textContent = copy[1];
+    }
     renderCounts();
+    if (focus.message) $('news-status').textContent = focus.message;
+    if (focus.id || Number.isInteger(focus.index)) requestAnimationFrame(() => {
+      const same = focus.id ? $('news-list').querySelector(`[data-story-id="${CSS.escape(focus.id)}"] ${focus.selector || '.story-toggle'}`) : null;
+      const rows = [...$('news-list').querySelectorAll('[data-story-id]')];
+      const nearby = rows[Math.min(focus.index || 0, Math.max(0, rows.length - 1))]?.querySelector(focus.selector || '.story-toggle');
+      (same || nearby || document.querySelector(`[data-news-filter="${activeFilter}"]`))?.focus();
+    });
   }
   function renderFreshness() {
     $('news-checked-relative').textContent = relativeTime(payload.checkedAt || payload.generatedAt);
     $('news-data-as-of').textContent = `Stories through ${prettyDate(`${payload.dataAsOf}T00:00:00Z`)}`;
-    const stale = payload.staleSources?.length || 0;
-    $('news-stale-warning').hidden = stale === 0;
-    $('news-stale-warning').textContent = stale ? `${stale} source${stale === 1 ? '' : 's'} unavailable` : '';
+    const stale = payload.staleSources?.length || 0, briefingStale = payload.briefingStale === true;
+    document.querySelector('.news-freshness').classList.toggle('is-stale', briefingStale);
+    $('news-stale-warning').hidden = !briefingStale && stale === 0;
+    $('news-stale-warning').textContent = briefingStale ? 'Briefing is stale · showing the last valid stories' : stale ? `${stale} source${stale === 1 ? '' : 's'} unavailable` : '';
   }
   function bindNewsControls() {
     document.querySelector('.news-filters').addEventListener('click', event => {
@@ -110,19 +122,19 @@
       document.querySelectorAll('[data-news-filter]').forEach(item => { const active = item === button; item.classList.toggle('active', active); item.setAttribute('aria-pressed', String(active)); });
       renderStories();
     });
-    $('mark-all-read').addEventListener('click', () => { payload.stories.forEach(story => state.read.add(story.id)); expanded.clear(); saveState(); renderStories(); });
+    $('mark-all-read').addEventListener('click', () => { payload.stories.forEach(story => state.read.add(story.id)); expanded.clear(); saveState(); renderStories({message:'All current stories marked read.'}); });
     $('news-list').addEventListener('click', event => {
       const article = event.target.closest('[data-story-id]'); if (!article) return;
-      const id = article.dataset.storyId;
+      const id = article.dataset.storyId, index = [...$('news-list').querySelectorAll('[data-story-id]')].indexOf(article), story = [...payload.stories,...(payload.archive || [])].find(item => item.id === id), title = story?.title || 'Article';
       if (event.target.closest('.star-toggle')) {
-        state.starred.has(id) ? state.starred.delete(id) : state.starred.add(id); saveState(); renderStories(); return;
+        const removing=state.starred.has(id); removing ? state.starred.delete(id) : state.starred.add(id); saveState(); renderStories({id,index,selector:'.star-toggle',message:`${title} ${removing ? 'removed from' : 'added to'} Starred.`}); return;
       }
       if (event.target.closest('.read-toggle')) {
-        state.read.has(id) ? state.read.delete(id) : state.read.add(id); expanded.delete(id); saveState(); renderStories(); return;
+        const markingUnread=state.read.has(id); markingUnread ? state.read.delete(id) : state.read.add(id); expanded.delete(id); saveState(); renderStories({id,index,selector:'.read-toggle',message:`${title} marked ${markingUnread ? 'unread' : 'read'}.`}); return;
       }
       if (event.target.closest('.story-toggle')) {
-        if (expanded.has(id)) expanded.delete(id); else { expanded.add(id); state.read.add(id); saveState(); }
-        renderStories();
+        const closing=expanded.has(id); if (closing) expanded.delete(id); else { expanded.add(id); state.read.add(id); saveState(); }
+        renderStories({id,index,selector:'.story-toggle',message:closing ? `${title} collapsed.` : `${title} opened and marked read.`});
       }
     });
   }
