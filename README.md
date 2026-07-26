@@ -1,6 +1,17 @@
 # Global Market Pulse
 
-A privacy-safe, static dashboard for ten global equity benchmarks. It refreshes approximately every six hours through GitHub Actions and is deployed with GitHub Pages.
+A privacy-safe, static dashboard with a weekly macro-news inbox and ten global equity benchmarks. It refreshes approximately every six hours through GitHub Actions and is deployed with GitHub Pages.
+
+## Weekly macro news
+
+The default `News` tab keeps a small rolling set of high-signal economic stories for long-term diversified investors. Each item is intentionally short and includes a separate allocation lens rather than a trading call.
+
+- New stable story IDs begin unread.
+- Opening or explicitly marking an article changes its read state.
+- Stars create a local saved collection; stories that leave the weekly inbox remain available to that collection for up to 180 days.
+- Read and star state stays only in the visitor's browser via `localStorage`; it is never uploaded and there are no accounts or analytics.
+- The generated artifact combines a reviewed editorial seed with strictly ranked releases and reports from the Federal Reserve, European Central Bank, U.S. Bureau of Economic Analysis, Bank of England, NPR and BBC News.
+- Feed failures preserve the last valid artifact. `checkedAt` is kept separate from the latest story date so a refresh does not imply that a new story was published.
 
 ## What it tracks
 
@@ -21,6 +32,7 @@ Proxy use is shown directly in the interface. All change calculations are percen
 
 ```bash
 python3 scripts/fetch_market_data.py
+python3 scripts/fetch_economic_news.py
 python3 -m unittest discover -s tests -p 'test_*.py'
 node tests/test_market.js
 python3 scripts/build_site.py

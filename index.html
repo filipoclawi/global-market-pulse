@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A global equity market dashboard tracking ten major benchmarks.">
+  <meta name="description" content="A high-signal weekly macro briefing and global equity market dashboard for long-term investors.">
   <meta name="theme-color" content="#0a0c10">
   <title>Global Market Pulse</title>
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/news.css">
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -17,7 +18,7 @@
     </a>
     <div class="update-pill" id="update-status" title="Market data refresh status">
       <span class="live-dot" aria-hidden="true"></span>
-      <span>Checked <strong id="updated-relative">—</strong></span>
+      <span>Markets checked <strong id="updated-relative">—</strong></span>
       <time id="updated-exact" datetime="">—</time>
       <span id="data-as-of">Data through —</span>
       <span id="stale-warning" hidden></span>
@@ -25,6 +26,57 @@
   </header>
 
   <main id="top">
+    <nav class="workspace-tabs" role="tablist" aria-label="Global Market Pulse views">
+      <button id="tab-news" class="workspace-tab active" role="tab" aria-selected="true" aria-controls="news-panel" tabindex="0">
+        News <span id="tab-unread-count" class="tab-count" aria-label="0 unread">0</span>
+      </button>
+      <button id="tab-markets" class="workspace-tab" role="tab" aria-selected="false" aria-controls="markets-panel" tabindex="-1">Markets</button>
+    </nav>
+
+    <section id="news-panel" class="tab-panel news-panel" role="tabpanel" aria-labelledby="tab-news">
+      <header class="news-hero">
+        <div>
+          <span class="eyebrow">Weekly macro briefing · signal over noise</span>
+          <h1>News for the <em>long view.</em></h1>
+          <p>Only the economic developments that may change the bigger picture for diversified portfolios—growth, inflation, rates, credit and the balance between stocks and bonds.</p>
+        </div>
+        <div class="news-freshness" aria-label="News freshness">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span>Checked <strong id="news-checked-relative">—</strong></span>
+          <span id="news-data-as-of">Stories through —</span>
+          <span id="news-stale-warning" hidden></span>
+        </div>
+      </header>
+
+      <section class="news-inbox" aria-labelledby="news-inbox-title">
+        <div class="news-toolbar">
+          <div>
+            <span class="section-index">01 / WEEKLY INBOX</span>
+            <h2 id="news-inbox-title">The stories that matter</h2>
+          </div>
+          <div class="news-actions">
+            <div class="news-filters" role="group" aria-label="Filter news">
+              <button class="active" data-news-filter="all" aria-pressed="true">Inbox</button>
+              <button data-news-filter="unread" aria-pressed="false">Unread <span id="filter-unread-count">0</span></button>
+              <button data-news-filter="starred" aria-pressed="false">Starred <span id="filter-starred-count">0</span></button>
+            </div>
+            <button id="mark-all-read" class="quiet-button" type="button">Mark all read</button>
+          </div>
+        </div>
+        <div id="news-list" class="news-list" aria-live="polite"></div>
+        <div id="news-empty" class="news-empty" hidden>
+          <strong>Nothing here right now.</strong>
+          <span>Your saved articles and read status stay on this device.</span>
+        </div>
+      </section>
+
+      <aside class="allocation-note" aria-label="How to use this briefing">
+        <span class="section-index">02 / HOW TO USE IT</span>
+        <p><b>Context, not calls.</b> These short notes are inputs to a long-term allocation and rebalancing process—not prompts to chase headlines, time the market or pick individual stocks.</p>
+      </aside>
+    </section>
+
+    <div id="markets-panel" class="tab-panel markets-panel" role="tabpanel" aria-labelledby="tab-markets" hidden>
     <section class="hero" aria-labelledby="hero-title">
       <div class="eyebrow">Ten benchmarks · six regions · one signal</div>
       <h1 id="hero-title">The world market,<br><em>at a glance.</em></h1>
@@ -122,6 +174,7 @@
         <p id="source-note">Daily price data is fetched from Yahoo Finance and Eastmoney. Values may be delayed. ETF proxies can differ from their benchmarks because of fees, trading hours and tracking error. The World ex USA proxy follows the broader IMI version, which also includes small caps. This dashboard is informational and not investment advice.</p>
       </details>
     </section>
+    </div>
   </main>
 
   <footer>
@@ -132,6 +185,7 @@
   <div id="error-banner" class="error-banner" role="alert" hidden>Market data could not be loaded. Please try again shortly.</div>
   <script src="assets/vendor/chart.umd.min.js"></script>
   <script src="assets/market.js"></script>
+  <script src="assets/news.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

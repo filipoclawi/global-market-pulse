@@ -24,19 +24,21 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-      - name: Refresh daily market history
-        run: python3 scripts/fetch_market_data.py
+      - name: Refresh market history and weekly macro news
+        run: |
+          python3 scripts/fetch_market_data.py
+          python3 scripts/fetch_economic_news.py
       - name: Run calculation and schema tests
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py'
           node tests/test_market.js
       - name: Commit refreshed data
         run: |
-          if ! git diff --quiet -- data/market-data.json; then
+          if ! git diff --quiet -- data/market-data.json data/economic-news.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/market-data.json
-            git commit -m 'data: refresh market closes'
+            git add data/market-data.json data/economic-news.json
+            git commit -m 'data: refresh markets and macro news'
             git push
           fi
       - name: Build static site

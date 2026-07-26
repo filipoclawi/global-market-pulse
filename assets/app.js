@@ -156,5 +156,8 @@
       console.error('Dashboard initialization failed', error); $('error-banner').hidden=false;
     }
   }
+  window.addEventListener('market-panel-shown', () => {
+    [pulseChart, comparisonChart, ...sparkCharts].filter(Boolean).forEach(chart => chart.resize());
+  });
   init();
 })();
