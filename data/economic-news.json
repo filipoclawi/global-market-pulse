@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T07:03:37Z",
-  "checkedAt": "2026-07-27T10:07:11Z",
-  "lastAttemptAt": "2026-07-27T10:07:11Z",
-  "dataAsOf": "2026-07-25",
+  "generatedAt": "2026-07-27T15:11:21Z",
+  "checkedAt": "2026-07-27T15:11:21Z",
+  "lastAttemptAt": "2026-07-27T15:11:21Z",
+  "dataAsOf": "2026-07-27",
   "windowStart": "2026-07-17",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 6,
   "stories": [
+    {
+      "id": "4918fdfbb2ac5766",
+      "title": "Oil price dives as US and Iran pause attacks",
+      "preview": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-07-27T15:08:37Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "us-tariffs-reset-2026-07",
       "title": "New U.S. tariffs extend the inflation-and-growth trade-off",
