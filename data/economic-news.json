@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T15:11:21Z",
-  "checkedAt": "2026-07-28T14:34:26Z",
-  "lastAttemptAt": "2026-07-28T14:34:26Z",
-  "dataAsOf": "2026-07-27",
+  "generatedAt": "2026-07-28T19:51:05Z",
+  "checkedAt": "2026-07-28T19:51:05Z",
+  "lastAttemptAt": "2026-07-28T19:51:05Z",
+  "dataAsOf": "2026-07-28",
   "windowStart": "2026-07-18",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -19,14 +19,14 @@
   "freshStoryCount": 6,
   "stories": [
     {
-      "id": "4918fdfbb2ac5766",
-      "title": "Oil price dives as US and Iran pause attacks",
-      "preview": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
-      "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "id": "b6c3c570b91140e1",
+      "title": "Energy prices rise by 19% in a year -report",
+      "preview": "The Retail Prices Indices and Household Costs Indices inflation statistics have been published.",
+      "summary": "The Retail Prices Indices and Household Costs Indices inflation statistics have been published.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-07-27T15:08:37Z",
+      "publishedAt": "2026-07-28T14:52:31Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c74gqxz27q0o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
       ],
@@ -119,5 +119,21 @@
       "editorial": true
     }
   ],
-  "archive": []
+  "archive": [
+    {
+      "id": "4918fdfbb2ac5766",
+      "title": "Oil price dives as US and Iran pause attacks",
+      "preview": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-07-27T15:08:37Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    }
+  ]
 }
