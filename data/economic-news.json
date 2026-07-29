@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T14:29:54Z",
-  "checkedAt": "2026-07-29T14:29:54Z",
-  "lastAttemptAt": "2026-07-29T14:29:54Z",
+  "generatedAt": "2026-07-29T19:40:57Z",
+  "checkedAt": "2026-07-29T19:40:57Z",
+  "lastAttemptAt": "2026-07-29T19:40:57Z",
   "dataAsOf": "2026-07-29",
   "windowStart": "2026-07-19",
   "refreshCadenceHours": 6,
@@ -19,14 +19,14 @@
   "freshStoryCount": 6,
   "stories": [
     {
-      "id": "de75844f7ded302e",
-      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "id": "f6fb8d5d76a9a3e2",
+      "title": "US interest rates held for fifth time in a row",
+      "preview": "The Federal Reserve's decision, which was broadly expected, means rates remain between the 3.5% and 3.75%.",
+      "summary": "The Federal Reserve's decision, which was broadly expected, means rates remain between the 3.5% and 3.75%.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-29T11:09:30Z",
+      "publishedAt": "2026-07-29T19:30:40Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
       ],
@@ -120,6 +120,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-29T11:09:30Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "b6c3c570b91140e1",
       "title": "Energy prices rise by 19% in a year -report",
