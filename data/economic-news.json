@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T19:51:05Z",
-  "checkedAt": "2026-07-29T09:06:59Z",
-  "lastAttemptAt": "2026-07-29T09:06:59Z",
-  "dataAsOf": "2026-07-28",
+  "generatedAt": "2026-07-29T14:29:54Z",
+  "checkedAt": "2026-07-29T14:29:54Z",
+  "lastAttemptAt": "2026-07-29T14:29:54Z",
+  "dataAsOf": "2026-07-29",
   "windowStart": "2026-07-19",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -19,16 +19,16 @@
   "freshStoryCount": 6,
   "stories": [
     {
-      "id": "b6c3c570b91140e1",
-      "title": "Energy prices rise by 19% in a year -report",
-      "preview": "The Retail Prices Indices and Household Costs Indices inflation statistics have been published.",
-      "summary": "The Retail Prices Indices and Household Costs Indices inflation statistics have been published.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-07-28T14:52:31Z",
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-29T11:09:30Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c74gqxz27q0o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Inflation"
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -120,6 +120,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "b6c3c570b91140e1",
+      "title": "Energy prices rise by 19% in a year -report",
+      "preview": "The Retail Prices Indices and Household Costs Indices inflation statistics have been published.",
+      "summary": "The Retail Prices Indices and Household Costs Indices inflation statistics have been published.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-07-28T14:52:31Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c74gqxz27q0o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "4918fdfbb2ac5766",
       "title": "Oil price dives as US and Iran pause attacks",
