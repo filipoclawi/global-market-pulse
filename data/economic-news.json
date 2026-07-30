@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T08:47:19Z",
-  "checkedAt": "2026-07-30T08:47:19Z",
-  "lastAttemptAt": "2026-07-30T08:47:19Z",
+  "generatedAt": "2026-07-30T14:29:35Z",
+  "checkedAt": "2026-07-30T14:29:35Z",
+  "lastAttemptAt": "2026-07-30T14:29:35Z",
   "dataAsOf": "2026-07-30",
   "windowStart": "2026-07-20",
   "refreshCadenceHours": 6,
@@ -16,32 +16,49 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 7,
+  "freshStoryCount": 8,
   "stories": [
     {
-      "id": "a09738d032f294da",
-      "title": "Shell profits double as oil prices rise due to Iran war",
-      "preview": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-07-30T07:11:44Z",
+      "id": "c65c9badfc1faf2d",
+      "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
+      "preview": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
+      "summary": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T14:01:19Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Inflation"
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
     },
     {
-      "id": "c65c9badfc1faf2d",
-      "title": "Interest rates expected to be held again by Bank of England",
-      "preview": "It would be the fifth hold in a row, with the Bank rate standing at 3.75% - the lowest since February 2023.",
-      "summary": "It would be the fifth hold in a row, with the Bank rate standing at 3.75% - the lowest since February 2023.",
+      "id": "9d7146f970cd6602",
+      "title": "GDP (Advance Estimate), 2nd Quarter 2026",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second quarter were increases in consumer spending, investment, and exports that were partly offset by a decrease in government spending. Imports, which are a subtraction in the calculation of GDP, increased. Full Text",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-29T23:01:56Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_campaign=rss&at_medium=RSS",
+      "publishedAt": "2026-07-30T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5032b8230b3b0553",
+      "title": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
+      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T11:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
       "tags": [
         "Rates"
       ],
@@ -135,6 +152,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "a09738d032f294da",
+      "title": "Shell profits double as oil prices rise due to Iran war",
+      "preview": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+      "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-07-30T07:11:44Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "f6fb8d5d76a9a3e2",
       "title": "US interest rates held for fifth time in a row",
