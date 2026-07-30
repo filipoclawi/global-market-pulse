@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T03:25:28Z",
-  "checkedAt": "2026-07-30T03:25:28Z",
-  "lastAttemptAt": "2026-07-30T03:25:28Z",
-  "dataAsOf": "2026-07-29",
+  "generatedAt": "2026-07-30T08:47:19Z",
+  "checkedAt": "2026-07-30T08:47:19Z",
+  "lastAttemptAt": "2026-07-30T08:47:19Z",
+  "dataAsOf": "2026-07-30",
   "windowStart": "2026-07-20",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 6,
+  "freshStoryCount": 7,
   "stories": [
+    {
+      "id": "a09738d032f294da",
+      "title": "Shell profits double as oil prices rise due to Iran war",
+      "preview": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+      "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-07-30T07:11:44Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "c65c9badfc1faf2d",
       "title": "Interest rates expected to be held again by Bank of England",
