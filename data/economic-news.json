@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T14:29:35Z",
-  "checkedAt": "2026-07-30T19:49:36Z",
-  "lastAttemptAt": "2026-07-30T19:49:36Z",
+  "generatedAt": "2026-07-31T03:48:04Z",
+  "checkedAt": "2026-07-31T03:48:04Z",
+  "lastAttemptAt": "2026-07-31T03:48:04Z",
   "dataAsOf": "2026-07-30",
-  "windowStart": "2026-07-20",
+  "windowStart": "2026-07-21",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -46,6 +46,22 @@
         "Rates",
         "Growth",
         "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5a0547ffcaa7a57e",
+      "title": "Personal Income and Outlays, June 2026",
+      "preview": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
+      "summary": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate-personal saving as a percentage of DPI-was 2.7 percent. Full Text",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "tags": [
+        "Rates",
+        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -132,23 +148,6 @@
       ],
       "readingMinutes": 1,
       "editorial": true
-    },
-    {
-      "id": "japan-bond-fiscal-pressure-2026-07",
-      "title": "Japan’s growth ambitions meet a less forgiving bond market",
-      "preview": "Japan’s government wants to accelerate investment in strategic industries, but rising government-bond yields show that financing conditions can no longer be taken for granted. The tension matters well beyond Japan because its bond market is one of the world’s largest.",
-      "summary": "Japan’s new economic blueprint emphasises state-backed investment in growth industries, while investors are increasingly focused on inflation and the fiscal cost of new commitments. Japanese government-bond yields have risen as the Bank of Japan reduces extraordinary support and the market asks for more compensation to hold long-dated debt. Higher domestic yields can change the incentives of Japanese institutions that own large amounts of overseas bonds: some foreign assets become less attractive once currency hedging is included. The result is a structural adjustment, not merely a one-day sell-off, and it may unfold unevenly as policy and inflation expectations change.",
-      "whyItMatters": "This is a reminder that duration risk exists even in historically low-yield markets. A globally diversified bond allocation should account for currency hedging, maturity and issuer quality rather than assuming every sovereign bond market will behave like U.S. Treasuries.",
-      "publishedAt": "2026-07-21T03:40:00Z",
-      "sourceLabel": "Reuters · MSN",
-      "sourceUrl": "https://www.msn.com/en-us/money/markets/japan-bond-jitters-overshadow-takaichi-s-debut-economic-blueprint/ar-AA28lnQU",
-      "tags": [
-        "Rates",
-        "Bonds",
-        "Japan"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
     }
   ],
   "archive": [
@@ -226,6 +225,23 @@
       ],
       "readingMinutes": 1,
       "editorial": false
+    },
+    {
+      "id": "japan-bond-fiscal-pressure-2026-07",
+      "title": "Japan’s growth ambitions meet a less forgiving bond market",
+      "preview": "Japan’s government wants to accelerate investment in strategic industries, but rising government-bond yields show that financing conditions can no longer be taken for granted. The tension matters well beyond Japan because its bond market is one of the world’s largest.",
+      "summary": "Japan’s new economic blueprint emphasises state-backed investment in growth industries, while investors are increasingly focused on inflation and the fiscal cost of new commitments. Japanese government-bond yields have risen as the Bank of Japan reduces extraordinary support and the market asks for more compensation to hold long-dated debt. Higher domestic yields can change the incentives of Japanese institutions that own large amounts of overseas bonds: some foreign assets become less attractive once currency hedging is included. The result is a structural adjustment, not merely a one-day sell-off, and it may unfold unevenly as policy and inflation expectations change.",
+      "whyItMatters": "This is a reminder that duration risk exists even in historically low-yield markets. A globally diversified bond allocation should account for currency hedging, maturity and issuer quality rather than assuming every sovereign bond market will behave like U.S. Treasuries.",
+      "publishedAt": "2026-07-21T03:40:00Z",
+      "sourceLabel": "Reuters · MSN",
+      "sourceUrl": "https://www.msn.com/en-us/money/markets/japan-bond-jitters-overshadow-takaichi-s-debut-economic-blueprint/ar-AA28lnQU",
+      "tags": [
+        "Rates",
+        "Bonds",
+        "Japan"
+      ],
+      "readingMinutes": 1,
+      "editorial": true
     }
   ]
 }
