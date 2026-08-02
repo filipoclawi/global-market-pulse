@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T03:48:04Z",
-  "checkedAt": "2026-08-02T08:35:54Z",
-  "lastAttemptAt": "2026-08-02T08:35:54Z",
+  "generatedAt": "2026-08-02T13:52:01Z",
+  "checkedAt": "2026-08-02T13:52:01Z",
+  "lastAttemptAt": "2026-08-02T13:52:01Z",
   "dataAsOf": "2026-07-30",
   "windowStart": "2026-07-23",
   "refreshCadenceHours": 6,
@@ -82,6 +82,21 @@
       "editorial": false
     },
     {
+      "id": "a09738d032f294da",
+      "title": "Shell profits double as oil prices rise due to Iran war",
+      "preview": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+      "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-07-30T09:16:29Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "us-tariffs-reset-2026-07",
       "title": "New U.S. tariffs extend the inflation-and-growth trade-off",
       "preview": "Replacement tariffs of 10% to 12.5% now cover dozens of U.S. trading partners. The bigger issue is not one day’s market reaction, but a longer period of higher import costs and policy uncertainty.",
@@ -131,41 +146,9 @@
       ],
       "readingMinutes": 1,
       "editorial": true
-    },
-    {
-      "id": "ecb-holds-energy-shock-2026-07",
-      "title": "ECB pauses at 2.25% while the energy shock works through inflation",
-      "preview": "The ECB left rates unchanged after June’s increase. Energy prices are now the key uncertainty: high enough to threaten inflation, but also capable of weakening growth.",
-      "summary": "The European Central Bank kept its deposit rate at 2.25%, the main refinancing rate at 2.40% and the marginal lending rate at 2.65%. It said energy prices remain well above their pre-conflict level and that the full inflationary effect of the Middle East shock has not yet appeared. The ECB is watching for indirect effects as higher energy costs pass into other prices and wages, while avoiding a fixed promise about its next move. This is a classic supply-shock problem: tighter policy can restrain inflation expectations, but it cannot produce more energy and may further slow an already soft economy.",
-      "whyItMatters": "European bond yields may stay sensitive to energy and inflation data even if growth is weak. The long-term lesson is to avoid treating bonds as one uniform bucket: cash, short-duration bonds, long-duration government bonds and inflation-linked bonds serve different roles.",
-      "publishedAt": "2026-07-23T12:15:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
-      "tags": [
-        "Rates",
-        "Inflation",
-        "Europe"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
     }
   ],
   "archive": [
-    {
-      "id": "a09738d032f294da",
-      "title": "Shell profits double as oil prices rise due to Iran war",
-      "preview": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-07-30T07:11:44Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
     {
       "id": "f6fb8d5d76a9a3e2",
       "title": "US interest rates held for fifth time in a row",
@@ -225,6 +208,23 @@
       ],
       "readingMinutes": 1,
       "editorial": false
+    },
+    {
+      "id": "ecb-holds-energy-shock-2026-07",
+      "title": "ECB pauses at 2.25% while the energy shock works through inflation",
+      "preview": "The ECB left rates unchanged after June’s increase. Energy prices are now the key uncertainty: high enough to threaten inflation, but also capable of weakening growth.",
+      "summary": "The European Central Bank kept its deposit rate at 2.25%, the main refinancing rate at 2.40% and the marginal lending rate at 2.65%. It said energy prices remain well above their pre-conflict level and that the full inflationary effect of the Middle East shock has not yet appeared. The ECB is watching for indirect effects as higher energy costs pass into other prices and wages, while avoiding a fixed promise about its next move. This is a classic supply-shock problem: tighter policy can restrain inflation expectations, but it cannot produce more energy and may further slow an already soft economy.",
+      "whyItMatters": "European bond yields may stay sensitive to energy and inflation data even if growth is weak. The long-term lesson is to avoid treating bonds as one uniform bucket: cash, short-duration bonds, long-duration government bonds and inflation-linked bonds serve different roles.",
+      "publishedAt": "2026-07-23T12:15:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+      "tags": [
+        "Rates",
+        "Inflation",
+        "Europe"
+      ],
+      "readingMinutes": 1,
+      "editorial": true
     },
     {
       "id": "japan-bond-fiscal-pressure-2026-07",
