@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T03:52:10Z",
-  "checkedAt": "2026-08-03T03:52:10Z",
-  "lastAttemptAt": "2026-08-03T03:52:10Z",
+  "generatedAt": "2026-08-03T10:03:53Z",
+  "checkedAt": "2026-08-03T10:03:53Z",
+  "lastAttemptAt": "2026-08-03T10:03:53Z",
   "dataAsOf": "2026-07-30",
   "windowStart": "2026-07-24",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 8,
+  "freshStoryCount": 7,
   "stories": [
     {
       "id": "af11c8cb9ad6b7f4",
@@ -128,23 +128,6 @@
       ],
       "readingMinutes": 1,
       "editorial": true
-    },
-    {
-      "id": "euro-growth-forecast-cut-2026-q3",
-      "title": "Forecasters cut euro-area growth while inflation stays above target",
-      "preview": "ECB-survey respondents now expect only 0.6% euro-area growth in 2026, alongside 2.7% inflation. That mix argues for patience rather than a simple ‘rates down, bonds up’ narrative.",
-      "summary": "The ECB’s quarterly survey of professional forecasters cut expected euro-area growth for 2026 by 0.4 percentage points to 0.6%, and trimmed 2027 growth to 1.2%. Headline inflation expectations stayed at 2.7% for 2026 and rose slightly to 2.2% for 2027; longer-run inflation expectations remained anchored at 2.0%. Respondents expect most indirect effects of the Middle East war to be concentrated in 2026, with inflation risks tilted upward this year. Forecasts are not facts, but the combination of weak growth and sticky near-term inflation shows why the ECB has limited room for quick, uncomplicated easing.",
-      "whyItMatters": "For long-horizon allocation, slower growth supports the defensive role of high-quality bonds, while sticky inflation limits how much duration to add based on growth alone. Broad global equity exposure also reduces dependence on one region’s weak cycle.",
-      "publishedAt": "2026-07-24T08:00:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260724~a099353951.en.html",
-      "tags": [
-        "Growth",
-        "Inflation",
-        "Europe"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
     }
   ],
   "archive": [
@@ -207,6 +190,23 @@
       ],
       "readingMinutes": 1,
       "editorial": false
+    },
+    {
+      "id": "euro-growth-forecast-cut-2026-q3",
+      "title": "Forecasters cut euro-area growth while inflation stays above target",
+      "preview": "ECB-survey respondents now expect only 0.6% euro-area growth in 2026, alongside 2.7% inflation. That mix argues for patience rather than a simple ‘rates down, bonds up’ narrative.",
+      "summary": "The ECB’s quarterly survey of professional forecasters cut expected euro-area growth for 2026 by 0.4 percentage points to 0.6%, and trimmed 2027 growth to 1.2%. Headline inflation expectations stayed at 2.7% for 2026 and rose slightly to 2.2% for 2027; longer-run inflation expectations remained anchored at 2.0%. Respondents expect most indirect effects of the Middle East war to be concentrated in 2026, with inflation risks tilted upward this year. Forecasts are not facts, but the combination of weak growth and sticky near-term inflation shows why the ECB has limited room for quick, uncomplicated easing.",
+      "whyItMatters": "For long-horizon allocation, slower growth supports the defensive role of high-quality bonds, while sticky inflation limits how much duration to add based on growth alone. Broad global equity exposure also reduces dependence on one region’s weak cycle.",
+      "publishedAt": "2026-07-24T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260724~a099353951.en.html",
+      "tags": [
+        "Growth",
+        "Inflation",
+        "Europe"
+      ],
+      "readingMinutes": 1,
+      "editorial": true
     },
     {
       "id": "oil-supply-shock-2026-07",
