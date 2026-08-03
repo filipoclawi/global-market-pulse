@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T13:52:01Z",
-  "checkedAt": "2026-08-02T19:32:21Z",
-  "lastAttemptAt": "2026-08-02T19:32:21Z",
+  "generatedAt": "2026-08-03T03:52:10Z",
+  "checkedAt": "2026-08-03T03:52:10Z",
+  "lastAttemptAt": "2026-08-03T03:52:10Z",
   "dataAsOf": "2026-07-30",
-  "windowStart": "2026-07-23",
+  "windowStart": "2026-07-24",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -18,6 +18,22 @@
   "briefingStale": false,
   "freshStoryCount": 8,
   "stories": [
+    {
+      "id": "af11c8cb9ad6b7f4",
+      "title": "Mortgage rates hit their highest level in a year, driven by war and inflation concerns",
+      "preview": "The 30-year fixed-rate mortgage reached 6.66% on average Thursday.",
+      "summary": "The 30-year fixed-rate mortgage reached 6.66% on average Thursday.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T20:37:59Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/07/30/nx-s1-5913851/mortgage-rates-one-year-high-july-2026",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "c65c9badfc1faf2d",
       "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
@@ -129,23 +145,6 @@
       ],
       "readingMinutes": 1,
       "editorial": true
-    },
-    {
-      "id": "oil-supply-shock-2026-07",
-      "title": "Oil above $100 turns geopolitics back into an inflation problem",
-      "preview": "Brent crude moved back above $100 as threats spread to a second major Middle Eastern shipping route. The durable issue is a renewed supply shock that can lift inflation while weakening growth.",
-      "summary": "Brent crude rose back above $100 a barrel after Houthi forces claimed attacks on Saudi tankers and threatened the Red Sea route, adding a second chokepoint to disruption around the Strait of Hormuz. Oil had traded below $70 before the U.S. war with Iran, so the change is large enough to affect fuel, freight and production costs. U.S. gasoline moved above $4 a gallon, while diesel and jet-fuel costs were also rising. The path remains highly uncertain: spare capacity, alternative routes and any de-escalation could reverse prices, but prolonged disruption would feed into inflation and household purchasing power across many economies.",
-      "whyItMatters": "Oil shocks can hurt both stocks and nominal bonds by slowing growth while lifting inflation. That is precisely why a resilient allocation mixes growth assets with high-quality bonds of different maturities and, where appropriate, inflation-sensitive exposure rather than relying on one hedge for every downturn.",
-      "publishedAt": "2026-07-23T20:36:00Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/07/23/nx-s1-5904519/a-new-threat-in-the-middle-east-sends-oil-over-100-a-barrel-again",
-      "tags": [
-        "Inflation",
-        "Energy",
-        "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
     }
   ],
   "archive": [
@@ -208,6 +207,23 @@
       ],
       "readingMinutes": 1,
       "editorial": false
+    },
+    {
+      "id": "oil-supply-shock-2026-07",
+      "title": "Oil above $100 turns geopolitics back into an inflation problem",
+      "preview": "Brent crude moved back above $100 as threats spread to a second major Middle Eastern shipping route. The durable issue is a renewed supply shock that can lift inflation while weakening growth.",
+      "summary": "Brent crude rose back above $100 a barrel after Houthi forces claimed attacks on Saudi tankers and threatened the Red Sea route, adding a second chokepoint to disruption around the Strait of Hormuz. Oil had traded below $70 before the U.S. war with Iran, so the change is large enough to affect fuel, freight and production costs. U.S. gasoline moved above $4 a gallon, while diesel and jet-fuel costs were also rising. The path remains highly uncertain: spare capacity, alternative routes and any de-escalation could reverse prices, but prolonged disruption would feed into inflation and household purchasing power across many economies.",
+      "whyItMatters": "Oil shocks can hurt both stocks and nominal bonds by slowing growth while lifting inflation. That is precisely why a resilient allocation mixes growth assets with high-quality bonds of different maturities and, where appropriate, inflation-sensitive exposure rather than relying on one hedge for every downturn.",
+      "publishedAt": "2026-07-23T20:36:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/07/23/nx-s1-5904519/a-new-threat-in-the-middle-east-sends-oil-over-100-a-barrel-again",
+      "tags": [
+        "Inflation",
+        "Energy",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": true
     },
     {
       "id": "ecb-holds-energy-shock-2026-07",
