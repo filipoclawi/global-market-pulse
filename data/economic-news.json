@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T14:37:48Z",
-  "checkedAt": "2026-08-04T14:37:48Z",
-  "lastAttemptAt": "2026-08-04T14:37:48Z",
+  "generatedAt": "2026-08-04T19:54:36Z",
+  "checkedAt": "2026-08-04T19:54:36Z",
+  "lastAttemptAt": "2026-08-04T19:54:36Z",
   "dataAsOf": "2026-08-04",
   "windowStart": "2026-07-25",
   "refreshCadenceHours": 6,
@@ -19,14 +19,14 @@
   "freshStoryCount": 6,
   "stories": [
     {
-      "id": "f1ae2b447fd56163",
-      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
-      "preview": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-      "summary": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
+      "id": "581fc33daa03630a",
+      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+      "preview": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-04T10:07:05Z",
+      "publishedAt": "2026-08-04T19:00:43Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
       ],
@@ -114,6 +114,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "f1ae2b447fd56163",
+      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
+      "preview": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
+      "summary": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-04T10:07:05Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "8c9fa52d644c5600",
       "title": "Apple will invest tariff refund into U.S. manufacturing",
