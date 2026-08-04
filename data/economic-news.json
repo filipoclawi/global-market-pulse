@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T03:34:20Z",
-  "checkedAt": "2026-08-04T03:34:20Z",
-  "lastAttemptAt": "2026-08-04T03:34:20Z",
+  "generatedAt": "2026-08-04T08:51:54Z",
+  "checkedAt": "2026-08-04T08:51:54Z",
+  "lastAttemptAt": "2026-08-04T08:51:54Z",
   "dataAsOf": "2026-08-04",
   "windowStart": "2026-07-25",
   "refreshCadenceHours": 6,
@@ -16,35 +16,19 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 6,
+  "freshStoryCount": 5,
   "stories": [
     {
-      "id": "ea248ec6b3fba953",
-      "title": "US states sue to block Trump tariffs impacting dozens of countries",
-      "preview": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
-      "summary": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
+      "id": "8c9fa52d644c5600",
+      "title": "Apple will invest tariff refund into U.S. manufacturing",
+      "preview": "Apple says it's planning to invest its hefty tariff refund into U.S. manufacturing. That's a luxury many smaller companies can't afford.",
+      "summary": "Apple says it's planning to invest its hefty tariff refund into U.S. manufacturing. That's a luxury many smaller companies can't afford.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-04T02:53:00Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo?at_campaign=rss&at_medium=RSS",
+      "publishedAt": "2026-08-04T08:40:57Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/04/nx-s1-5918538/apple-will-invest-tariff-refund-into-u-s-manufacturing",
       "tags": [
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "af11c8cb9ad6b7f4",
-      "title": "Mortgage rates hit their highest level in a year, driven by war and inflation concerns",
-      "preview": "The 30-year fixed-rate mortgage reached 6.66% on average Thursday.",
-      "summary": "The 30-year fixed-rate mortgage reached 6.66% on average Thursday.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-30T20:37:59Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/07/30/nx-s1-5913851/mortgage-rates-one-year-high-july-2026",
-      "tags": [
-        "Rates",
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -116,6 +100,37 @@
     }
   ],
   "archive": [
+    {
+      "id": "ea248ec6b3fba953",
+      "title": "US states sue to block Trump tariffs impacting dozens of countries",
+      "preview": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
+      "summary": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-04T02:53:00Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "af11c8cb9ad6b7f4",
+      "title": "Mortgage rates hit their highest level in a year, driven by war and inflation concerns",
+      "preview": "The 30-year fixed-rate mortgage reached 6.66% on average Thursday.",
+      "summary": "The 30-year fixed-rate mortgage reached 6.66% on average Thursday.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T20:37:59Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/07/30/nx-s1-5913851/mortgage-rates-one-year-high-july-2026",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "c65c9badfc1faf2d",
       "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
