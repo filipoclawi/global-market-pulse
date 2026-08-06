@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T19:52:38Z",
-  "checkedAt": "2026-08-05T19:52:38Z",
-  "lastAttemptAt": "2026-08-05T19:52:38Z",
+  "generatedAt": "2026-08-06T03:33:33Z",
+  "checkedAt": "2026-08-06T03:33:33Z",
+  "lastAttemptAt": "2026-08-06T03:33:33Z",
   "dataAsOf": "2026-08-05",
-  "windowStart": "2026-07-26",
+  "windowStart": "2026-07-27",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -20,9 +20,9 @@
   "stories": [
     {
       "id": "2655976682ec9856",
-      "title": "Trump's 'Liberation Day' tariff refunds hit $100bn",
-      "preview": "The repayments represent roughly 60% of all tariff revenue collected by the US government under the policy.",
-      "summary": "The repayments represent roughly 60% of all tariff revenue collected by the US government under the policy.",
+      "title": "Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses",
+      "preview": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
+      "summary": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
       "publishedAt": "2026-08-05T19:39:48Z",
       "sourceLabel": "BBC News",
