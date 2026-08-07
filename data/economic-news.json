@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T03:33:33Z",
-  "checkedAt": "2026-08-07T00:13:56Z",
-  "lastAttemptAt": "2026-08-07T00:13:56Z",
-  "dataAsOf": "2026-08-05",
+  "generatedAt": "2026-08-07T03:14:38Z",
+  "checkedAt": "2026-08-07T03:14:38Z",
+  "lastAttemptAt": "2026-08-07T03:14:38Z",
+  "dataAsOf": "2026-08-07",
   "windowStart": "2026-07-28",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,34 +16,19 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 4,
   "stories": [
     {
-      "id": "2655976682ec9856",
-      "title": "Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses",
-      "preview": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
-      "summary": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
+      "id": "1d97e6295974f311",
+      "title": "Trump imposes 15% tariff on key chip material to counter China",
+      "preview": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
+      "summary": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-05T19:39:48Z",
+      "publishedAt": "2026-08-07T01:03:35Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "581fc33daa03630a",
-      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-      "preview": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
-      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-05T03:44:30Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -98,6 +83,36 @@
     }
   ],
   "archive": [
+    {
+      "id": "2655976682ec9856",
+      "title": "Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses",
+      "preview": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
+      "summary": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-05T19:39:48Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "581fc33daa03630a",
+      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+      "preview": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-05T03:44:30Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "f1ae2b447fd56163",
       "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
