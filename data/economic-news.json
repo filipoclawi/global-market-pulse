@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-09T13:13:50Z",
-  "checkedAt": "2026-08-09T13:13:50Z",
-  "lastAttemptAt": "2026-08-09T13:13:50Z",
+  "checkedAt": "2026-08-09T18:59:01Z",
+  "lastAttemptAt": "2026-08-09T18:59:01Z",
   "dataAsOf": "2026-08-09",
   "windowStart": "2026-07-30",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 3,
+  "freshStoryCount": 2,
   "stories": [
     {
       "id": "f84c050c8a22789f",
