@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T03:14:38Z",
-  "checkedAt": "2026-08-09T07:14:10Z",
-  "lastAttemptAt": "2026-08-09T07:14:10Z",
-  "dataAsOf": "2026-08-07",
+  "generatedAt": "2026-08-09T13:13:50Z",
+  "checkedAt": "2026-08-09T13:13:50Z",
+  "lastAttemptAt": "2026-08-09T13:13:50Z",
+  "dataAsOf": "2026-08-09",
   "windowStart": "2026-07-30",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,24 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": false,
-  "freshStoryCount": 4,
+  "briefingStale": true,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "f84c050c8a22789f",
+      "title": "Economist explains what the latest jobs report and inflation data means",
+      "preview": "NPR's Ayesha Rascoe asks Jed Kolko of the Peterson Institute for International Economics if he is alarmed by Friday's weaker-than-expected jobs report.",
+      "summary": "NPR's Ayesha Rascoe asks Jed Kolko of the Peterson Institute for International Economics if he is alarmed by Friday's weaker-than-expected jobs report.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-09T13:08:21Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/09/nx-s1-5924049/economist-explains-what-the-latest-jobs-report-and-inflation-data-means",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "1d97e6295974f311",
       "title": "Trump imposes 15% tariff on key chip material to counter China",
@@ -27,6 +42,21 @@
       "publishedAt": "2026-08-07T01:03:35Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "8700a0859c829c44",
+      "title": "U.S. International Trade in Goods and Services, June 2026",
+      "preview": "Full Text ]]>",
+      "summary": "Full Text ]]>",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-04T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
       "tags": [
         "Trade"
       ],
@@ -46,37 +76,6 @@
         "Rates",
         "Growth",
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "5a0547ffcaa7a57e",
-      "title": "Personal Income and Outlays, June 2026",
-      "preview": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
-      "summary": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate-personal saving as a percentage of DPI-was 2.7 percent. Full Text",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-30T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
-      "tags": [
-        "Rates",
-        "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "5032b8230b3b0553",
-      "title": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
-      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-30T11:00:00Z",
-      "sourceLabel": "Bank of England",
-      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -183,6 +182,37 @@
       "publishedAt": "2026-07-30T16:33:40Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5a0547ffcaa7a57e",
+      "title": "Personal Income and Outlays, June 2026",
+      "preview": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
+      "summary": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate-personal saving as a percentage of DPI-was 2.7 percent. Full Text",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "tags": [
+        "Rates",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5032b8230b3b0553",
+      "title": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
+      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-07-30T11:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
       "tags": [
         "Rates"
       ],
