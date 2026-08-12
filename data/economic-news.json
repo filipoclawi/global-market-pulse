@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T13:43:45Z",
-  "checkedAt": "2026-08-12T13:43:45Z",
-  "lastAttemptAt": "2026-08-12T13:43:45Z",
+  "generatedAt": "2026-08-12T19:17:45Z",
+  "checkedAt": "2026-08-12T19:17:45Z",
+  "lastAttemptAt": "2026-08-12T19:17:45Z",
   "dataAsOf": "2026-08-12",
   "windowStart": "2026-08-02",
   "refreshCadenceHours": 6,
@@ -20,11 +20,11 @@
   "stories": [
     {
       "id": "0b603f74a1e88109",
-      "title": "US inflation eases as food costs cool",
+      "title": "US inflation eases as food and fuel costs cool",
       "preview": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
       "summary": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-12T13:40:51Z",
+      "publishedAt": "2026-08-12T17:03:05Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_campaign=rss&at_medium=RSS",
       "tags": [
