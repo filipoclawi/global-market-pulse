@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T19:17:45Z",
-  "checkedAt": "2026-08-13T19:18:09Z",
-  "lastAttemptAt": "2026-08-13T19:18:09Z",
-  "dataAsOf": "2026-08-12",
-  "windowStart": "2026-08-03",
+  "generatedAt": "2026-08-14T02:43:20Z",
+  "checkedAt": "2026-08-14T02:43:20Z",
+  "lastAttemptAt": "2026-08-14T02:43:20Z",
+  "dataAsOf": "2026-08-13",
+  "windowStart": "2026-08-04",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "b9c318bb860966bd",
+      "title": "Businesses feel the strain as the deadline for Trump's 50% Canadian tariff approaches",
+      "preview": "If President Trump's threatened 50% tariffs go through later this month, construction businesses that rely on materials imported from Canada are among those that will suffer.",
+      "summary": "If President Trump's threatened 50% tariffs go through later this month, construction businesses that rely on materials imported from Canada are among those that will suffer.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-13T21:08:14Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/13/nx-s1-5927326-e1/businesses-feel-the-strain-as-the-deadline-for-trumps-50-canadian-tariff-approaches",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "0b603f74a1e88109",
       "title": "US inflation eases as food and fuel costs cool",
@@ -49,21 +64,6 @@
       "editorial": false
     },
     {
-      "id": "1d97e6295974f311",
-      "title": "Trump imposes 15% tariff on key chip material to counter China",
-      "preview": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
-      "summary": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
-      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-07T01:03:35Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "8700a0859c829c44",
       "title": "U.S. International Trade in Goods and Services, June 2026",
       "preview": "Full Text ]]>",
@@ -80,6 +80,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "1d97e6295974f311",
+      "title": "Trump imposes 15% tariff on key chip material to counter China",
+      "preview": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
+      "summary": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-07T01:03:35Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "2655976682ec9856",
       "title": "Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses",
