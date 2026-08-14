@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-14T07:47:57Z",
-  "checkedAt": "2026-08-14T07:47:57Z",
-  "lastAttemptAt": "2026-08-14T07:47:57Z",
+  "checkedAt": "2026-08-14T13:39:16Z",
+  "lastAttemptAt": "2026-08-14T13:39:16Z",
   "dataAsOf": "2026-08-14",
   "windowStart": "2026-08-04",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 3,
+  "freshStoryCount": 2,
   "stories": [
     {
       "id": "adae0c82fd82ae7f",
@@ -24,7 +24,7 @@
       "preview": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
       "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-14T03:09:48Z",
+      "publishedAt": "2026-08-14T08:39:46Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_campaign=rss&at_medium=RSS",
       "tags": [
