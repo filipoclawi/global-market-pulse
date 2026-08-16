@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T07:47:57Z",
-  "checkedAt": "2026-08-16T06:56:58Z",
-  "lastAttemptAt": "2026-08-16T06:56:58Z",
-  "dataAsOf": "2026-08-14",
+  "generatedAt": "2026-08-16T12:59:00Z",
+  "checkedAt": "2026-08-16T12:59:00Z",
+  "lastAttemptAt": "2026-08-16T12:59:00Z",
+  "dataAsOf": "2026-08-16",
   "windowStart": "2026-08-06",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -18,6 +18,21 @@
   "briefingStale": true,
   "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "259e1d71a6bcec10",
+      "title": "Companies are getting tariff refunds of up to $2 billion from the Trump administration",
+      "preview": "NPR's Danielle Kurtzleben speaks to Wall Street Journal business reporter Theo Francis about refunds some businesses are getting on the billions of dollars they've paid on President Trump's tariffs.",
+      "summary": "NPR's Danielle Kurtzleben speaks to Wall Street Journal business reporter Theo Francis about refunds some businesses are getting on the billions of dollars they've paid on President Trump's tariffs.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-16T11:46:27Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/16/nx-s1-5930384/companies-are-getting-tariff-refunds-of-up-to-2-billion-from-the-trump-administration",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "adae0c82fd82ae7f",
       "title": "US says dozens of countries helped China dodge Trump's tariffs",
@@ -59,21 +74,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "8700a0859c829c44",
-      "title": "U.S. International Trade in Goods and Services, June 2026",
-      "preview": "Full Text ]]>",
-      "summary": "Full Text ]]>",
-      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-04T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
-      "tags": [
-        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -136,6 +136,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "8700a0859c829c44",
+      "title": "U.S. International Trade in Goods and Services, June 2026",
+      "preview": "Full Text ]]>",
+      "summary": "Full Text ]]>",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-04T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
+      "tags": [
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
