@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T12:59:00Z",
-  "checkedAt": "2026-08-16T18:45:00Z",
-  "lastAttemptAt": "2026-08-16T18:45:00Z",
+  "generatedAt": "2026-08-17T01:54:01Z",
+  "checkedAt": "2026-08-17T01:54:01Z",
+  "lastAttemptAt": "2026-08-17T01:54:01Z",
   "dataAsOf": "2026-08-16",
-  "windowStart": "2026-08-06",
+  "windowStart": "2026-08-07",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -64,6 +64,24 @@
       "editorial": false
     },
     {
+      "id": "69cc9fbafff3207f",
+      "title": "Inflation eases in July as gasoline and grocery prices fall",
+      "preview": "Consumer prices in July were up 3.4% from a year ago — a smaller annual increase than in May or June. The news makes it less likely the Fed will feel the need to raise interest rates in September.",
+      "summary": "Consumer prices in July were up 3.4% from a year ago — a smaller annual increase than in May or June. The news makes it less likely the Fed will feel the need to raise interest rates in September.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-12T14:00:29Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/12/nx-s1-5929122/inflation-cpi-economy-gas-grocery",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    }
+  ],
+  "archive": [
+    {
       "id": "0b603f74a1e88109",
       "title": "US inflation eases as food and fuel costs cool",
       "preview": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
@@ -77,9 +95,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "f84c050c8a22789f",
       "title": "Economist explains what the latest jobs report and inflation data means",
