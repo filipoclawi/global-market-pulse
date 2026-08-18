@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T01:48:53Z",
-  "checkedAt": "2026-08-18T13:05:39Z",
-  "lastAttemptAt": "2026-08-18T13:05:39Z",
+  "generatedAt": "2026-08-18T18:54:17Z",
+  "checkedAt": "2026-08-18T18:54:17Z",
+  "lastAttemptAt": "2026-08-18T18:54:17Z",
   "dataAsOf": "2026-08-18",
   "windowStart": "2026-08-08",
   "refreshCadenceHours": 6,
@@ -16,8 +16,24 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "dc711aa948d78a85",
+      "title": "Global borrowing costs hit fresh highs on oil, AI and inflation",
+      "preview": "Interest rates on long-term US, UK, German and Japanese government debt have soared.",
+      "summary": "Interest rates on long-term US, UK, German and Japanese government debt have soared.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-18T18:20:08Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c1k1x1zdywdo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "5ac3b87235f3c5a5",
       "title": "US-Canada trade talks 'intense' as new tariff deadline looms",
@@ -62,7 +78,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "b9c318bb860966bd",
       "title": "Businesses feel the strain as the deadline for Trump's 50% Canadian tariff approaches",
@@ -77,9 +95,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "0b603f74a1e88109",
       "title": "US inflation eases as food and fuel costs cool",
