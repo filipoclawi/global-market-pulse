@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T18:54:17Z",
-  "checkedAt": "2026-08-19T01:51:07Z",
-  "lastAttemptAt": "2026-08-19T01:51:07Z",
-  "dataAsOf": "2026-08-18",
+  "generatedAt": "2026-08-19T07:03:30Z",
+  "checkedAt": "2026-08-19T07:03:30Z",
+  "lastAttemptAt": "2026-08-19T07:03:30Z",
+  "dataAsOf": "2026-08-19",
   "windowStart": "2026-08-09",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,11 +16,42 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 3,
   "stories": [
     {
+      "id": "51b5eacf3ea903ee",
+      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
+      "preview": "The cost of things is now rising at a faster pace compared with last month.",
+      "summary": "The cost of things is now rising at a faster pace compared with last month.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-19T06:50:04Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "b73047abeaa230eb",
+      "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports",
+      "preview": "President Trump said he was delaying the 50% U.S. tariffs on Canadian imports after the two countries reached a last-minute deal less than two hours before the sanctions were to go into effect.",
+      "summary": "President Trump said he was delaying the 50% U.S. tariffs on Canadian imports after the two countries reached a last-minute deal less than two hours before the sanctions were to go into effect.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-19T04:55:08Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "dc711aa948d78a85",
-      "title": "Global borrowing costs hit fresh highs on oil, AI and inflation",
+      "title": "Global borrowing costs hit fresh highs over oil, AI and inflation concerns",
       "preview": "Interest rates on long-term US, UK, German and Japanese government debt have soared.",
       "summary": "Interest rates on long-term US, UK, German and Japanese government debt have soared.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
@@ -48,7 +79,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "259e1d71a6bcec10",
       "title": "Companies are getting tariff refunds of up to $2 billion from the Trump administration",
@@ -78,9 +111,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "b9c318bb860966bd",
       "title": "Businesses feel the strain as the deadline for Trump's 50% Canadian tariff approaches",
