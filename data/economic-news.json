@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-18T18:54:17Z",
-  "checkedAt": "2026-08-18T18:54:17Z",
-  "lastAttemptAt": "2026-08-18T18:54:17Z",
+  "checkedAt": "2026-08-19T01:51:07Z",
+  "lastAttemptAt": "2026-08-19T01:51:07Z",
   "dataAsOf": "2026-08-18",
-  "windowStart": "2026-08-08",
+  "windowStart": "2026-08-09",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 1,
   "stories": [
     {
       "id": "dc711aa948d78a85",
