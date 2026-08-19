@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T13:06:39Z",
-  "checkedAt": "2026-08-19T13:06:39Z",
-  "lastAttemptAt": "2026-08-19T13:06:39Z",
+  "generatedAt": "2026-08-19T18:51:25Z",
+  "checkedAt": "2026-08-19T18:51:25Z",
+  "lastAttemptAt": "2026-08-19T18:51:25Z",
   "dataAsOf": "2026-08-19",
   "windowStart": "2026-08-09",
   "refreshCadenceHours": 6,
@@ -15,9 +15,41 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": false,
-  "freshStoryCount": 4,
+  "briefingStale": true,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "d1526f41f57a89b2",
+      "title": "US retail giant receives $1bn boost from tariff refunds",
+      "preview": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
+      "summary": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
+      "whyItMatters": "Growth affects corporate earnings and credit risk, while slower growth can eventually support high-quality bonds. Treat one release as evidence for the cycle, not as a stand-alone signal to switch asset classes.",
+      "publishedAt": "2026-08-19T17:07:49Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "51b5eacf3ea903ee",
+      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
+      "preview": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
+      "summary": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-19T16:12:27Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "4e17624b97963eaf",
       "title": "Inflation is heating up but don't expect another crisis",
@@ -29,21 +61,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "de75844f7ded302e",
-      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-19T09:58:24Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -62,6 +79,23 @@
       ],
       "readingMinutes": 1,
       "editorial": false
+    }
+  ],
+  "archive": [
+    {
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-19T09:58:24Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
     },
     {
       "id": "b73047abeaa230eb",
@@ -74,24 +108,6 @@
       "sourceUrl": "https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs",
       "tags": [
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    }
-  ],
-  "archive": [
-    {
-      "id": "51b5eacf3ea903ee",
-      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
-      "preview": "The cost of things is now rising at a faster pace compared with last month.",
-      "summary": "The cost of things is now rising at a faster pace compared with last month.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-19T06:50:04Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates",
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
