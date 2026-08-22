@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T18:51:25Z",
-  "checkedAt": "2026-08-22T01:48:35Z",
-  "lastAttemptAt": "2026-08-22T01:48:35Z",
-  "dataAsOf": "2026-08-19",
+  "generatedAt": "2026-08-22T06:57:10Z",
+  "checkedAt": "2026-08-22T06:57:10Z",
+  "lastAttemptAt": "2026-08-22T06:57:10Z",
+  "dataAsOf": "2026-08-22",
   "windowStart": "2026-08-12",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -18,6 +18,21 @@
   "briefingStale": true,
   "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "d462f2e041283bde",
+      "title": "U.S. imposes 50% tariffs on $20 billion worth of Canadian products",
+      "preview": "The United States imposed 50% tariffs on $20 billion worth of Canadian products early Saturday, and Canada immediately said it would retaliate, after last-ditch negotiations failed.",
+      "summary": "The United States imposed 50% tariffs on $20 billion worth of Canadian products early Saturday, and Canada immediately said it would retaliate, after last-ditch negotiations failed.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-22T04:36:27Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "d1526f41f57a89b2",
       "title": "US retail giant receives $1bn boost from tariff refunds",
@@ -51,21 +66,6 @@
       "editorial": false
     },
     {
-      "id": "4e17624b97963eaf",
-      "title": "Inflation is heating up but don't expect another crisis",
-      "preview": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
-      "summary": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-19T11:27:39Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "7619f47480fa60e8",
       "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
@@ -82,6 +82,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "4e17624b97963eaf",
+      "title": "Inflation is heating up but don't expect another crisis",
+      "preview": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
+      "summary": "Rising living costs could heap pressure on PM Andy Burnham though it depends what happens in the coming months.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-19T11:27:39Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "de75844f7ded302e",
       "title": "What's happening to UK interest rates and what does it mean for mortgages?",
