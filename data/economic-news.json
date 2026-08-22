@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T06:57:10Z",
-  "checkedAt": "2026-08-22T06:57:10Z",
-  "lastAttemptAt": "2026-08-22T06:57:10Z",
+  "generatedAt": "2026-08-22T12:58:32Z",
+  "checkedAt": "2026-08-22T12:58:32Z",
+  "lastAttemptAt": "2026-08-22T12:58:32Z",
   "dataAsOf": "2026-08-22",
   "windowStart": "2026-08-12",
   "refreshCadenceHours": 6,
@@ -20,9 +20,9 @@
   "stories": [
     {
       "id": "d462f2e041283bde",
-      "title": "U.S. imposes 50% tariffs on $20 billion worth of Canadian products",
-      "preview": "The United States imposed 50% tariffs on $20 billion worth of Canadian products early Saturday, and Canada immediately said it would retaliate, after last-ditch negotiations failed.",
-      "summary": "The United States imposed 50% tariffs on $20 billion worth of Canadian products early Saturday, and Canada immediately said it would retaliate, after last-ditch negotiations failed.",
+      "title": "U.S.-Canada trade talks collapse just before deadline for tariffs",
+      "preview": "The midnight deadline means the U.S. has imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada \"will match those tariffs dollar for dollar.\"",
+      "summary": "The midnight deadline means the U.S. has imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada \"will match those tariffs dollar for dollar.\"",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
       "publishedAt": "2026-08-22T04:36:27Z",
       "sourceLabel": "NPR",
