@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-08-23T01:58:14Z",
-  "checkedAt": "2026-08-23T01:58:14Z",
-  "lastAttemptAt": "2026-08-23T01:58:14Z",
+  "checkedAt": "2026-08-23T06:59:04Z",
+  "lastAttemptAt": "2026-08-23T06:59:04Z",
   "dataAsOf": "2026-08-22",
   "windowStart": "2026-08-13",
   "refreshCadenceHours": 6,
@@ -15,8 +15,8 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": false,
-  "freshStoryCount": 4,
+  "briefingStale": true,
+  "freshStoryCount": 2,
   "stories": [
     {
       "id": "d5ab0562842c8c99",
