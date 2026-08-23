@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:47:14Z",
-  "checkedAt": "2026-08-22T18:47:14Z",
-  "lastAttemptAt": "2026-08-22T18:47:14Z",
+  "generatedAt": "2026-08-23T01:58:14Z",
+  "checkedAt": "2026-08-23T01:58:14Z",
+  "lastAttemptAt": "2026-08-23T01:58:14Z",
   "dataAsOf": "2026-08-22",
-  "windowStart": "2026-08-12",
+  "windowStart": "2026-08-13",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -15,18 +15,18 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
     {
-      "id": "d462f2e041283bde",
-      "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
-      "preview": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" next month.",
-      "summary": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" next month.",
+      "id": "d5ab0562842c8c99",
+      "title": "The U.S. & Canada are fighting over tariffs. How is that affecting small businesses?",
+      "preview": "NPR's Danielle Kurtzleben speaks with Mike Roach and Kim Osgood, owners of Paloma Clothing in Portland, Ore., about how the tariff fight between the U.S. and Canada is affecting their business.",
+      "summary": "NPR's Danielle Kurtzleben speaks with Mike Roach and Kim Osgood, owners of Paloma Clothing in Portland, Ore., about how the tariff fight between the U.S. and Canada is affecting their business.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-22T04:36:27Z",
+      "publishedAt": "2026-08-22T21:16:39Z",
       "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941703/the-u-s-canada-are-fighting-over-tariffs-how-is-that-affecting-small-businesses",
       "tags": [
         "Trade"
       ],
@@ -82,6 +82,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "d462f2e041283bde",
+      "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
+      "preview": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" next month.",
+      "summary": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" next month.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-22T04:36:27Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "4e17624b97963eaf",
       "title": "Inflation is heating up but don't expect another crisis",
