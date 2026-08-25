@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T01:50:22Z",
-  "checkedAt": "2026-08-25T01:50:22Z",
-  "lastAttemptAt": "2026-08-25T01:50:22Z",
+  "generatedAt": "2026-08-25T07:06:50Z",
+  "checkedAt": "2026-08-25T07:06:50Z",
+  "lastAttemptAt": "2026-08-25T07:06:50Z",
   "dataAsOf": "2026-08-25",
   "windowStart": "2026-08-15",
   "refreshCadenceHours": 6,
@@ -20,11 +20,11 @@
   "stories": [
     {
       "id": "b4b4d9cee5ad3c5e",
-      "title": "US-Canada trade war escalates as Trump threatens tariff hike on autos after Carney vows to retaliate",
+      "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
       "preview": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
       "summary": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-25T00:25:52Z",
+      "publishedAt": "2026-08-25T02:51:53Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_campaign=rss&at_medium=RSS",
       "tags": [
