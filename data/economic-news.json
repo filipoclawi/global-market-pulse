@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T07:06:50Z",
-  "checkedAt": "2026-08-25T07:06:50Z",
-  "lastAttemptAt": "2026-08-25T07:06:50Z",
+  "generatedAt": "2026-08-25T13:09:32Z",
+  "checkedAt": "2026-08-25T13:09:32Z",
+  "lastAttemptAt": "2026-08-25T13:09:32Z",
   "dataAsOf": "2026-08-25",
   "windowStart": "2026-08-15",
   "refreshCadenceHours": 6,
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "30b497b06d9ccf71",
+      "title": "Jersey earnings rise by 1.2% after inflation",
+      "preview": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
+      "summary": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-25T11:22:05Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "b4b4d9cee5ad3c5e",
       "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
@@ -43,22 +58,6 @@
       "sourceLabel": "NPR",
       "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941703/the-u-s-canada-are-fighting-over-tariffs-how-is-that-affecting-small-businesses",
       "tags": [
-        "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "d1526f41f57a89b2",
-      "title": "US retail giant receives $1bn boost from tariff refunds",
-      "preview": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
-      "summary": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
-      "whyItMatters": "Growth affects corporate earnings and credit risk, while slower growth can eventually support high-quality bonds. Treat one release as evidence for the cycle, not as a stand-alone signal to switch asset classes.",
-      "publishedAt": "2026-08-19T17:07:49Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Growth",
         "Trade"
       ],
       "readingMinutes": 1,
@@ -91,6 +90,22 @@
       "sourceLabel": "NPR",
       "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
       "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "d1526f41f57a89b2",
+      "title": "US retail giant receives $1bn boost from tariff refunds",
+      "preview": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
+      "summary": "The US chain said it received a $994 million pre-tax reimbursement, which resulted in its second quarter operating income rising to $2.6bn.",
+      "whyItMatters": "Growth affects corporate earnings and credit risk, while slower growth can eventually support high-quality bonds. Treat one release as evidence for the cycle, not as a stand-alone signal to switch asset classes.",
+      "publishedAt": "2026-08-19T17:07:49Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c78gp4y8d3eo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Growth",
         "Trade"
       ],
       "readingMinutes": 1,
