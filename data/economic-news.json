@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T01:58:14Z",
-  "checkedAt": "2026-08-24T18:57:28Z",
-  "lastAttemptAt": "2026-08-24T18:57:28Z",
-  "dataAsOf": "2026-08-22",
-  "windowStart": "2026-08-14",
+  "generatedAt": "2026-08-25T01:50:22Z",
+  "checkedAt": "2026-08-25T01:50:22Z",
+  "lastAttemptAt": "2026-08-25T01:50:22Z",
+  "dataAsOf": "2026-08-25",
+  "windowStart": "2026-08-15",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -18,6 +18,21 @@
   "briefingStale": true,
   "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "b4b4d9cee5ad3c5e",
+      "title": "US-Canada trade war escalates as Trump threatens tariff hike on autos after Carney vows to retaliate",
+      "preview": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
+      "summary": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-25T00:25:52Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "d5ab0562842c8c99",
       "title": "The U.S. & Canada are fighting over tariffs. How is that affecting small businesses?",
@@ -50,22 +65,6 @@
       "editorial": false
     },
     {
-      "id": "51b5eacf3ea903ee",
-      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
-      "preview": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
-      "summary": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-19T16:12:27Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates",
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "7619f47480fa60e8",
       "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
@@ -93,6 +92,22 @@
       "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
       "tags": [
         "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "51b5eacf3ea903ee",
+      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
+      "preview": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
+      "summary": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-19T16:12:27Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
