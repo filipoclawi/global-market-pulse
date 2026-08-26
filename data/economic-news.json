@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T01:58:20Z",
-  "checkedAt": "2026-08-26T07:06:49Z",
-  "lastAttemptAt": "2026-08-26T07:06:49Z",
-  "dataAsOf": "2026-08-25",
+  "generatedAt": "2026-08-26T13:14:02Z",
+  "checkedAt": "2026-08-26T13:14:02Z",
+  "lastAttemptAt": "2026-08-26T13:14:02Z",
+  "dataAsOf": "2026-08-26",
   "windowStart": "2026-08-16",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,18 +15,66 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 6,
   "stories": [
     {
-      "id": "6466954d9151a08d",
-      "title": "Winter energy prices expected to rise to three-year high",
-      "preview": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
-      "summary": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
+      "id": "30b497b06d9ccf71",
+      "title": "Jersey earnings rise by 1.2% after inflation",
+      "preview": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
+      "summary": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-25T23:07:29Z",
+      "publishedAt": "2026-08-26T13:07:55Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqjkl1xvgw5o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "c8bece5d6cafef93",
+      "title": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second quarter were increases in consumer spending, exports, and investment that were partly offset by a decrease in government spending. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-26T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5895968b941e893a",
+      "title": "Personal Income and Outlays, July 2026",
+      "preview": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
+      "summary": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $125.9 billion (0.5 percent), and personal consumption expenditures (PCE) increased $36.3 billion (0.2 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $36.6 billion in July. Personal saving was $712.0 billion in July, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-26T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "tags": [
+        "Rates",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "53e2a6081fa3463d",
+      "title": "Energy prices to rise to three-year high",
+      "preview": "Energy bills for millions of households are expected to rise this winter to the highest level for three years",
+      "summary": "Energy bills for millions of households are expected to rise this winter to the highest level for three years",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-26T09:45:46Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cly7nm72ne0o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
       ],
@@ -49,21 +97,6 @@
       "editorial": false
     },
     {
-      "id": "30b497b06d9ccf71",
-      "title": "Jersey earnings rise by 1.2% after inflation",
-      "preview": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
-      "summary": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-25T11:22:05Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "7619f47480fa60e8",
       "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
@@ -80,6 +113,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "6466954d9151a08d",
+      "title": "Winter energy prices expected to rise to three-year high",
+      "preview": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
+      "summary": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-25T23:07:29Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqjkl1xvgw5o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "b4b4d9cee5ad3c5e",
       "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
