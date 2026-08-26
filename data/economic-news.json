@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T18:55:18Z",
-  "checkedAt": "2026-08-25T18:55:18Z",
-  "lastAttemptAt": "2026-08-25T18:55:18Z",
+  "generatedAt": "2026-08-26T01:58:20Z",
+  "checkedAt": "2026-08-26T01:58:20Z",
+  "lastAttemptAt": "2026-08-26T01:58:20Z",
   "dataAsOf": "2026-08-25",
-  "windowStart": "2026-08-15",
+  "windowStart": "2026-08-16",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -19,8 +19,23 @@
   "freshStoryCount": 4,
   "stories": [
     {
+      "id": "6466954d9151a08d",
+      "title": "Winter energy prices expected to rise to three-year high",
+      "preview": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
+      "summary": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-25T23:07:29Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqjkl1xvgw5o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "d04aa1e3a61d0736",
-      "title": "Canada announces retaliatory tariffs on the U.S. as the countries' trade fight deepens",
+      "title": "Canada hits back at the U.S. with tariffs as the countries' trade fight escalates",
       "preview": "The measures come after President Trump imposed 50% tariffs on many Canadian goods and threatened more after trade talks broke down on Friday.",
       "summary": "The measures come after President Trump imposed 50% tariffs on many Canadian goods and threatened more after trade talks broke down on Friday.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
@@ -44,21 +59,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "d462f2e041283bde",
-      "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
-      "preview": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" starting Sept. 8.",
-      "summary": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" starting Sept. 8.",
-      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-22T04:36:27Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-      "tags": [
-        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -104,6 +104,21 @@
       "publishedAt": "2026-08-22T21:16:39Z",
       "sourceLabel": "NPR",
       "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941703/the-u-s-canada-are-fighting-over-tariffs-how-is-that-affecting-small-businesses",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "d462f2e041283bde",
+      "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
+      "preview": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" starting Sept. 8.",
+      "summary": "The U.S. has now imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada will match those tariffs \"dollar for dollar\" starting Sept. 8.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-22T04:36:27Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
       "tags": [
         "Trade"
       ],
