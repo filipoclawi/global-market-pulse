@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T22:14:15Z",
-  "checkedAt": "2026-08-27T22:14:15Z",
-  "lastAttemptAt": "2026-08-27T22:14:15Z",
-  "dataAsOf": "2026-08-26",
-  "windowStart": "2026-08-17",
+  "generatedAt": "2026-08-28T11:20:08Z",
+  "checkedAt": "2026-08-28T11:20:08Z",
+  "lastAttemptAt": "2026-08-28T11:20:08Z",
+  "dataAsOf": "2026-08-28",
+  "windowStart": "2026-08-18",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -19,16 +19,16 @@
   "freshStoryCount": 5,
   "stories": [
     {
-      "id": "30b497b06d9ccf71",
-      "title": "Jersey earnings rise by 1.2% after inflation",
-      "preview": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
-      "summary": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-26T13:07:55Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
+      "id": "c98bba82b8791625",
+      "title": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
+      "preview": "A slew of American companies are getting billions of dollars back in tariff refunds after a Supreme Court ruling. Many consumers, though, may never get anything back.",
+      "summary": "A slew of American companies are getting billions of dollars back in tariff refunds after a Supreme Court ruling. Many consumers, though, may never get anything back.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-28T09:00:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5946782/businesses-getting-tariff-refunds-why-arent-consumers-getting-their-cut",
       "tags": [
-        "Inflation"
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -98,6 +98,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "30b497b06d9ccf71",
+      "title": "Jersey earnings rise by 1.2% after inflation",
+      "preview": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
+      "summary": "Statistics Jersey says the increase is \"slightly lower\" than the long-term annual average.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-26T13:07:55Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "6466954d9151a08d",
       "title": "Winter energy prices expected to rise to three-year high",
