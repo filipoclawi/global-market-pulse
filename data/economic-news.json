@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T11:20:08Z",
-  "checkedAt": "2026-08-28T11:20:08Z",
-  "lastAttemptAt": "2026-08-28T11:20:08Z",
+  "generatedAt": "2026-08-28T22:16:16Z",
+  "checkedAt": "2026-08-28T22:16:16Z",
+  "lastAttemptAt": "2026-08-28T22:16:16Z",
   "dataAsOf": "2026-08-28",
   "windowStart": "2026-08-18",
   "refreshCadenceHours": 6,
@@ -18,6 +18,22 @@
   "briefingStale": false,
   "freshStoryCount": 5,
   "stories": [
+    {
+      "id": "41e1c6f75d4ab889",
+      "title": "Fed's Kevin Warsh warns inflation is too high, sparking bets rate hikes are coming",
+      "preview": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech — raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
+      "summary": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech — raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-28T16:05:40Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "c98bba82b8791625",
       "title": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
@@ -67,21 +83,6 @@
       "editorial": false
     },
     {
-      "id": "53e2a6081fa3463d",
-      "title": "Energy prices to rise to three-year high",
-      "preview": "Energy bills for millions of households are expected to rise this winter to the highest level for three years",
-      "summary": "Energy bills for millions of households are expected to rise this winter to the highest level for three years",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-08-26T09:45:46Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cly7nm72ne0o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "7619f47480fa60e8",
       "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
@@ -107,6 +108,21 @@
       "publishedAt": "2026-08-26T13:07:55Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "53e2a6081fa3463d",
+      "title": "Energy prices to rise to three-year high",
+      "preview": "Energy bills for millions of households are expected to rise this winter to the highest level for three years",
+      "summary": "Energy bills for millions of households are expected to rise this winter to the highest level for three years",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-08-26T09:45:46Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cly7nm72ne0o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
       ],
