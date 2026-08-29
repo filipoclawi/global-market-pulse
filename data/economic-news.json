@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T22:16:16Z",
-  "checkedAt": "2026-08-29T07:01:21Z",
-  "lastAttemptAt": "2026-08-29T07:01:21Z",
+  "generatedAt": "2026-08-29T16:41:26Z",
+  "checkedAt": "2026-08-29T16:41:26Z",
+  "lastAttemptAt": "2026-08-29T16:41:26Z",
   "dataAsOf": "2026-08-28",
   "windowStart": "2026-08-19",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 4,
   "stories": [
     {
       "id": "41e1c6f75d4ab889",
@@ -77,21 +77,6 @@
       "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
       "tags": [
         "Rates",
-        "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "7619f47480fa60e8",
-      "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Growth affects corporate earnings and credit risk, while slower growth can eventually support high-quality bonds. Treat one release as evidence for the cycle, not as a stand-alone signal to switch asset classes.",
-      "publishedAt": "2026-08-19T07:10:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
-      "tags": [
         "Growth"
       ],
       "readingMinutes": 1,
@@ -262,6 +247,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "7619f47480fa60e8",
+      "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Growth affects corporate earnings and credit risk, while slower growth can eventually support high-quality bonds. Treat one release as evidence for the cycle, not as a stand-alone signal to switch asset classes.",
+      "publishedAt": "2026-08-19T07:10:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
+      "tags": [
+        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
