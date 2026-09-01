@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T16:36:49Z",
-  "checkedAt": "2026-09-01T16:36:49Z",
-  "lastAttemptAt": "2026-09-01T16:36:49Z",
+  "generatedAt": "2026-09-01T20:59:52Z",
+  "checkedAt": "2026-09-01T20:59:52Z",
+  "lastAttemptAt": "2026-09-01T20:59:52Z",
   "dataAsOf": "2026-09-01",
   "windowStart": "2026-08-22",
   "refreshCadenceHours": 6,
@@ -16,11 +16,11 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 6,
   "stories": [
     {
       "id": "8245ddfff5bd17eb",
-      "title": "Boris Vujčić: Household expectations and monetary policy: The importance of high-quality surveys and evidence-based research",
+      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
       "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
@@ -28,8 +28,23 @@
       "sourceLabel": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "d564cf753aaec268",
+      "title": "US borrowing costs hit fresh highs over inflation fears",
+      "preview": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
+      "summary": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-01T15:51:51Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c980y8r98y2o?at_campaign=rss&at_medium=RSS",
+      "tags": [
         "Rates",
-        "Trade"
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
