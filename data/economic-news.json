@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T11:52:01Z",
-  "checkedAt": "2026-09-01T11:35:50Z",
-  "lastAttemptAt": "2026-09-01T11:35:50Z",
-  "dataAsOf": "2026-08-30",
+  "generatedAt": "2026-09-01T16:36:49Z",
+  "checkedAt": "2026-09-01T16:36:49Z",
+  "lastAttemptAt": "2026-09-01T16:36:49Z",
+  "dataAsOf": "2026-09-01",
   "windowStart": "2026-08-22",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,24 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 4,
+  "freshStoryCount": 5,
   "stories": [
+    {
+      "id": "8245ddfff5bd17eb",
+      "title": "Boris Vujčić: Household expectations and monetary policy: The importance of high-quality surveys and evidence-based research",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-01T16:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+      "tags": [
+        "Rates",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "3ba1b50eeb3ffa55",
       "title": "How a comic book store got swept into the tariff storm",
