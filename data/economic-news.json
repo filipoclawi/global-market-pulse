@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T20:59:52Z",
-  "checkedAt": "2026-09-02T21:00:34Z",
-  "lastAttemptAt": "2026-09-02T21:00:34Z",
+  "generatedAt": "2026-09-03T04:19:49Z",
+  "checkedAt": "2026-09-03T04:19:49Z",
+  "lastAttemptAt": "2026-09-03T04:19:49Z",
   "dataAsOf": "2026-09-01",
-  "windowStart": "2026-08-23",
+  "windowStart": "2026-08-24",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 6,
+  "freshStoryCount": 5,
   "stories": [
     {
       "id": "8245ddfff5bd17eb",
@@ -29,22 +29,6 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "d564cf753aaec268",
-      "title": "US borrowing costs hit fresh highs over inflation fears",
-      "preview": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
-      "summary": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-01T15:51:51Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c980y8r98y2o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates",
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -115,6 +99,22 @@
     }
   ],
   "archive": [
+    {
+      "id": "d564cf753aaec268",
+      "title": "US borrowing costs hit fresh highs over inflation fears",
+      "preview": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
+      "summary": "The effective interest rate on 10 years rose to 4.79%, its highest level since January 2025, as oil prices surged.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-01T15:51:51Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c980y8r98y2o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "c98bba82b8791625",
       "title": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
