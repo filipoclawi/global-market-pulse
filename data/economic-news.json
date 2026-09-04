@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T04:27:56Z",
-  "checkedAt": "2026-09-04T04:27:56Z",
-  "lastAttemptAt": "2026-09-04T04:27:56Z",
+  "generatedAt": "2026-09-04T11:14:09Z",
+  "checkedAt": "2026-09-04T11:14:09Z",
+  "lastAttemptAt": "2026-09-04T11:14:09Z",
   "dataAsOf": "2026-09-01",
   "windowStart": "2026-08-25",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 4,
   "stories": [
     {
       "id": "8245ddfff5bd17eb",
@@ -44,22 +44,6 @@
       "sourceUrl": "https://www.npr.org/2026/08/30/nx-s1-5939521/tariff-refunds-canada-trade-war",
       "tags": [
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "41e1c6f75d4ab889",
-      "title": "Fed's Kevin Warsh warns inflation is too high, sparking bets rate hikes are coming",
-      "preview": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech — raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
-      "summary": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech — raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-28T16:05:40Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates",
-      "tags": [
-        "Rates",
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -108,6 +92,22 @@
       "publishedAt": "2026-09-01T15:51:51Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c980y8r98y2o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "41e1c6f75d4ab889",
+      "title": "Fed's Kevin Warsh warns inflation is too high, sparking bets rate hikes are coming",
+      "preview": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech — raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
+      "summary": "Fed Chair Kevin Warsh reiterated his commitment to fighting inflation in a major speech — raising expectations that rate hikes may be coming, though he did not clearly spell out a path going forward.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-28T16:05:40Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates",
       "tags": [
         "Rates",
         "Inflation"
