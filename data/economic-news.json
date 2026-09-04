@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T11:14:09Z",
-  "checkedAt": "2026-09-04T16:19:07Z",
-  "lastAttemptAt": "2026-09-04T16:19:07Z",
-  "dataAsOf": "2026-09-01",
+  "generatedAt": "2026-09-04T20:43:38Z",
+  "checkedAt": "2026-09-04T20:43:38Z",
+  "lastAttemptAt": "2026-09-04T20:43:38Z",
+  "dataAsOf": "2026-09-04",
   "windowStart": "2026-08-25",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,24 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "549919833707ca54",
+      "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
+      "preview": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
+      "summary": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-04T17:23:13Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "8245ddfff5bd17eb",
       "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
@@ -29,21 +44,6 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "3ba1b50eeb3ffa55",
-      "title": "How a comic book store got swept into the tariff storm",
-      "preview": "Tariffs continue to rile all kinds of American businesses more than a year after Trump unveiled his first set of tariffs — including a comic book store owner in Ohio.",
-      "summary": "Tariffs continue to rile all kinds of American businesses more than a year after Trump unveiled his first set of tariffs — including a comic book store owner in Ohio.",
-      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-08-30T10:00:00Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/08/30/nx-s1-5939521/tariff-refunds-canada-trade-war",
-      "tags": [
-        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -95,6 +95,21 @@
       "tags": [
         "Rates",
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "3ba1b50eeb3ffa55",
+      "title": "How a comic book store got swept into the tariff storm",
+      "preview": "Tariffs continue to rile all kinds of American businesses more than a year after Trump unveiled his first set of tariffs — including a comic book store owner in Ohio.",
+      "summary": "Tariffs continue to rile all kinds of American businesses more than a year after Trump unveiled his first set of tariffs — including a comic book store owner in Ohio.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-08-30T10:00:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/08/30/nx-s1-5939521/tariff-refunds-canada-trade-war",
+      "tags": [
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
