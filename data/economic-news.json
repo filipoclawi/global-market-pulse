@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T20:43:38Z",
-  "checkedAt": "2026-09-05T10:31:36Z",
-  "lastAttemptAt": "2026-09-05T10:31:36Z",
+  "generatedAt": "2026-09-05T15:10:42Z",
+  "checkedAt": "2026-09-05T15:10:42Z",
+  "lastAttemptAt": "2026-09-05T15:10:42Z",
   "dataAsOf": "2026-09-04",
   "windowStart": "2026-08-26",
   "refreshCadenceHours": 6,
@@ -15,8 +15,8 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": false,
-  "freshStoryCount": 4,
+  "briefingStale": true,
+  "freshStoryCount": 3,
   "stories": [
     {
       "id": "549919833707ca54",
@@ -29,6 +29,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "e3db0a1d14a2cc6f",
+      "title": "U.S. International Trade in Goods and Services, July 2026",
+      "preview": "The U.S. goods and services trade deficit increased in July 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $71.2 billion in June (revised) to $88.6 billion in July…",
+      "summary": "The U.S. goods and services trade deficit increased in July 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $71.2 billion in June (revised) to $88.6 billion in July, as imports increased and exports decreased. The goods deficit increased $17.6 billion in July to $119.6 billion. The services surplus increased $0.2 billion in July to $31.0 billion.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-09-03T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+      "tags": [
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -61,22 +76,6 @@
         "Rates",
         "Growth",
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "5895968b941e893a",
-      "title": "Personal Income and Outlays, July 2026",
-      "preview": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
-      "summary": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $125.9 billion (0.5 percent), and personal consumption expenditures (PCE) increased $36.3 billion (0.2 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $36.6 billion in July. Personal saving was $712.0 billion in July, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-26T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
-      "tags": [
-        "Rates",
-        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -156,6 +155,22 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5895968b941e893a",
+      "title": "Personal Income and Outlays, July 2026",
+      "preview": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
+      "summary": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $125.9 billion (0.5 percent), and personal consumption expenditures (PCE) increased $36.3 billion (0.2 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $36.6 billion in July. Personal saving was $712.0 billion in July, and the personal saving rate-personal saving as a percentage of DPI-was 3.0 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-26T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "tags": [
+        "Rates",
+        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
