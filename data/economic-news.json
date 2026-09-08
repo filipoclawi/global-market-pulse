@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T16:35:55Z",
-  "checkedAt": "2026-09-08T16:35:55Z",
-  "lastAttemptAt": "2026-09-08T16:35:55Z",
+  "generatedAt": "2026-09-08T21:06:57Z",
+  "checkedAt": "2026-09-08T21:06:57Z",
+  "lastAttemptAt": "2026-09-08T21:06:57Z",
   "dataAsOf": "2026-09-08",
   "windowStart": "2026-08-29",
   "refreshCadenceHours": 6,
@@ -19,6 +19,21 @@
   "freshStoryCount": 3,
   "stories": [
     {
+      "id": "6b8d2670cdde9df9",
+      "title": "Sapporo to move some beer production from Canada to US after tariffs",
+      "preview": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
+      "summary": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-09-08T17:41:42Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c87ve09pgqzo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "b239655e7456e6d6",
       "title": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
       "preview": "Canada's levies - as high as 50% - will apply to nearly $20bn of US products, from steel to T-shirts.",
@@ -29,21 +44,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "549919833707ca54",
-      "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
-      "preview": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
-      "summary": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-04T17:23:13Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -80,6 +80,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "549919833707ca54",
+      "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
+      "preview": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
+      "summary": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-04T17:23:13Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "d564cf753aaec268",
       "title": "US borrowing costs hit fresh highs over inflation fears",
