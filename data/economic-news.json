@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T15:10:42Z",
-  "checkedAt": "2026-09-08T04:30:57Z",
-  "lastAttemptAt": "2026-09-08T04:30:57Z",
-  "dataAsOf": "2026-09-04",
+  "generatedAt": "2026-09-08T11:13:59Z",
+  "checkedAt": "2026-09-08T11:13:59Z",
+  "lastAttemptAt": "2026-09-08T11:13:59Z",
+  "dataAsOf": "2026-09-08",
   "windowStart": "2026-08-29",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,24 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "b239655e7456e6d6",
+      "title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+      "preview": "The tariffs will apply to $20bn worth of American products, jeopardising the stability of the world's largest bilateral trading relationship.",
+      "summary": "The tariffs will apply to $20bn worth of American products, jeopardising the stability of the world's largest bilateral trading relationship.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-09-08T04:39:14Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "549919833707ca54",
       "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
@@ -59,23 +74,6 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "c8bece5d6cafef93",
-      "title": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
-      "preview": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second quarter were increases in consumer spending, exports, and investment that were partly offset by a decrease in government spending. Imports, which are a subtraction in the calculation of GDP, increased.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-26T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
-      "tags": [
-        "Rates",
-        "Growth",
-        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -155,6 +153,23 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c70ljwz9ddxo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "c8bece5d6cafef93",
+      "title": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second quarter were increases in consumer spending, exports, and investment that were partly offset by a decrease in government spending. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-08-26T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
