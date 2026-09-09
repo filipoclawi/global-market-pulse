@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-08T21:06:57Z",
-  "checkedAt": "2026-09-09T16:35:45Z",
-  "lastAttemptAt": "2026-09-09T16:35:45Z",
+  "checkedAt": "2026-09-09T20:54:04Z",
+  "lastAttemptAt": "2026-09-09T20:54:04Z",
   "dataAsOf": "2026-09-09",
   "windowStart": "2026-08-30",
   "refreshCadenceHours": 6,
@@ -11,10 +11,14 @@
     "European Central Bank",
     "U.S. Bureau of Economic Analysis",
     "Bank of England",
-    "NPR",
     "BBC News"
   ],
-  "staleSources": [],
+  "staleSources": [
+    {
+      "source": "NPR",
+      "reason": "NPR: HTTP Error 404: Not Found"
+    }
+  ],
   "briefingStale": true,
   "freshStoryCount": 3,
   "stories": [
