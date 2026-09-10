@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T16:21:43Z",
-  "checkedAt": "2026-09-10T16:21:43Z",
-  "lastAttemptAt": "2026-09-10T16:21:43Z",
+  "generatedAt": "2026-09-10T20:49:27Z",
+  "checkedAt": "2026-09-10T20:49:27Z",
+  "lastAttemptAt": "2026-09-10T20:49:27Z",
   "dataAsOf": "2026-09-10",
   "windowStart": "2026-08-31",
   "refreshCadenceHours": 6,
@@ -19,14 +19,14 @@
   "freshStoryCount": 4,
   "stories": [
     {
-      "id": "8c58f97b299aa3a5",
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "id": "e56d98dfaae71c1b",
+      "title": "Monetary policy decisions",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
       "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-10T13:00:00Z",
+      "publishedAt": "2026-09-10T12:15:00Z",
       "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
       "tags": [
         "Rates"
       ],
@@ -80,6 +80,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "8c58f97b299aa3a5",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-10T13:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "b239655e7456e6d6",
       "title": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
