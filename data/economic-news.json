@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T04:35:33Z",
-  "checkedAt": "2026-09-11T04:35:33Z",
-  "lastAttemptAt": "2026-09-11T04:35:33Z",
-  "dataAsOf": "2026-09-10",
+  "generatedAt": "2026-09-11T11:16:32Z",
+  "checkedAt": "2026-09-11T11:16:32Z",
+  "lastAttemptAt": "2026-09-11T11:16:32Z",
+  "dataAsOf": "2026-09-11",
   "windowStart": "2026-09-01",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -20,11 +20,11 @@
   "stories": [
     {
       "id": "58b0a841bbd5011d",
-      "title": "Are interest rates on the way up again?",
+      "title": "Interest rates could rise again across the world – here's why",
       "preview": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
       "summary": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-10T23:03:09Z",
+      "publishedAt": "2026-09-11T08:28:47Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_campaign=rss&at_medium=RSS",
       "tags": [
