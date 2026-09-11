@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T11:16:32Z",
-  "checkedAt": "2026-09-11T11:16:32Z",
-  "lastAttemptAt": "2026-09-11T11:16:32Z",
+  "generatedAt": "2026-09-11T16:25:51Z",
+  "checkedAt": "2026-09-11T16:25:51Z",
+  "lastAttemptAt": "2026-09-11T16:25:51Z",
   "dataAsOf": "2026-09-11",
   "windowStart": "2026-09-01",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 4,
   "stories": [
     {
       "id": "58b0a841bbd5011d",
@@ -24,7 +24,7 @@
       "preview": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
       "summary": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-11T08:28:47Z",
+      "publishedAt": "2026-09-11T13:35:29Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_campaign=rss&at_medium=RSS",
       "tags": [
@@ -78,21 +78,6 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
-    {
-      "id": "8245ddfff5bd17eb",
-      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-01T16:00:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
     }
   ],
   "archive": [
@@ -135,6 +120,21 @@
       "publishedAt": "2026-09-04T17:23:13Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "8245ddfff5bd17eb",
+      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-01T16:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "tags": [
         "Rates"
       ],
