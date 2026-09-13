@@ -1,23 +1,42 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T16:25:51Z",
-  "checkedAt": "2026-09-13T04:42:56Z",
-  "lastAttemptAt": "2026-09-13T04:42:56Z",
-  "dataAsOf": "2026-09-11",
+  "generatedAt": "2026-09-13T11:47:01Z",
+  "checkedAt": "2026-09-13T11:47:01Z",
+  "lastAttemptAt": "2026-09-13T11:47:01Z",
+  "dataAsOf": "2026-09-13",
   "windowStart": "2026-09-03",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
-    "Federal Reserve",
     "European Central Bank",
     "U.S. Bureau of Economic Analysis",
     "Bank of England",
     "NPR",
     "BBC News"
   ],
-  "staleSources": [],
+  "staleSources": [
+    {
+      "source": "Federal Reserve",
+      "reason": "Federal Reserve: HTTP Error 404: Not Found"
+    }
+  ],
   "briefingStale": false,
   "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "c8631df6947d1328",
+      "title": "Oil prices create 'huge worry' as winter looms",
+      "preview": "The warning comes after the US-Iran conflict drives up heating oil and fuel costs.",
+      "summary": "The warning comes after the US-Iran conflict drives up heating oil and fuel costs.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-13T06:01:53Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwyzegz38wlo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "58b0a841bbd5011d",
       "title": "Interest rates could rise again across the world – here's why",
@@ -50,21 +69,6 @@
       "editorial": false
     },
     {
-      "id": "6b8d2670cdde9df9",
-      "title": "Sapporo to move some beer production from Canada to US after tariffs",
-      "preview": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
-      "summary": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
-      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-09-09T14:01:24Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c87ve09pgqzo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "e3db0a1d14a2cc6f",
       "title": "U.S. International Trade in Goods and Services, July 2026",
       "preview": "The U.S. goods and services trade deficit increased in July 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $71.2 billion in June (revised) to $88.6 billion in July…",
@@ -92,6 +96,21 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "6b8d2670cdde9df9",
+      "title": "Sapporo to move some beer production from Canada to US after tariffs",
+      "preview": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
+      "summary": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-09-09T14:01:24Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c87ve09pgqzo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
