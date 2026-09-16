@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T11:27:51Z",
-  "checkedAt": "2026-09-16T11:27:51Z",
-  "lastAttemptAt": "2026-09-16T11:27:51Z",
+  "generatedAt": "2026-09-16T16:51:04Z",
+  "checkedAt": "2026-09-16T16:51:04Z",
+  "lastAttemptAt": "2026-09-16T16:51:04Z",
   "dataAsOf": "2026-09-16",
   "windowStart": "2026-09-06",
   "refreshCadenceHours": 6,
@@ -24,7 +24,7 @@
       "preview": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
       "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-09-16T10:33:42Z",
+      "publishedAt": "2026-09-16T14:30:51Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_campaign=rss&at_medium=RSS",
       "tags": [
@@ -35,18 +35,16 @@
       "editorial": false
     },
     {
-      "id": "5519de0879366f9c",
-      "title": "The Fed is expected to raise interest rates for the first time in 3 years",
-      "preview": "The Fed is widely expected to raise its benchmark interest rate to combat stubborn inflation. That could make it more expensive to borrow money to buy a car or carry a balance on a credit card.",
-      "summary": "The Fed is widely expected to raise its benchmark interest rate to combat stubborn inflation. That could make it more expensive to borrow money to buy a car or carry a balance on a credit card.",
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-16T09:00:00Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/09/16/nx-s1-5968724/federal-reserve-interest-rates-inflation-economy",
+      "publishedAt": "2026-09-16T13:50:59Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Rates",
-        "Inflation",
-        "Credit"
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -83,6 +81,23 @@
     }
   ],
   "archive": [
+    {
+      "id": "5519de0879366f9c",
+      "title": "The Fed is expected to raise interest rates for the first time in 3 years",
+      "preview": "The Fed is widely expected to raise its benchmark interest rate to combat stubborn inflation. That could make it more expensive to borrow money to buy a car or carry a balance on a credit card.",
+      "summary": "The Fed is widely expected to raise its benchmark interest rate to combat stubborn inflation. That could make it more expensive to borrow money to buy a car or carry a balance on a credit card.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-16T09:00:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/16/nx-s1-5968724/federal-reserve-interest-rates-inflation-economy",
+      "tags": [
+        "Rates",
+        "Inflation",
+        "Credit"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "512b3f5d5733940f",
       "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
@@ -462,21 +477,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "de75844f7ded302e",
-      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-08-19T09:58:24Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
