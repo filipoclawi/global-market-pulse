@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T12:40:48Z",
-  "checkedAt": "2026-09-16T04:45:56Z",
-  "lastAttemptAt": "2026-09-16T04:45:56Z",
-  "dataAsOf": "2026-09-14",
+  "generatedAt": "2026-09-16T11:27:51Z",
+  "checkedAt": "2026-09-16T11:27:51Z",
+  "lastAttemptAt": "2026-09-16T11:27:51Z",
+  "dataAsOf": "2026-09-16",
   "windowStart": "2026-09-06",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,42 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 2,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "01e0e3b16efe4d10",
+      "title": "Petrol and diesel price rises push UK inflation higher",
+      "preview": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-16T10:33:42Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5519de0879366f9c",
+      "title": "The Fed is expected to raise interest rates for the first time in 3 years",
+      "preview": "The Fed is widely expected to raise its benchmark interest rate to combat stubborn inflation. That could make it more expensive to borrow money to buy a car or carry a balance on a credit card.",
+      "summary": "The Fed is widely expected to raise its benchmark interest rate to combat stubborn inflation. That could make it more expensive to borrow money to buy a car or carry a balance on a credit card.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-16T09:00:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/16/nx-s1-5968724/federal-reserve-interest-rates-inflation-economy",
+      "tags": [
+        "Rates",
+        "Inflation",
+        "Credit"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "2c7e80504002c16c",
       "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
@@ -33,6 +66,23 @@
       "readingMinutes": 1,
       "editorial": false
     },
+    {
+      "id": "e56d98dfaae71c1b",
+      "title": "Monetary policy decisions",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-10T12:15:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    }
+  ],
+  "archive": [
     {
       "id": "512b3f5d5733940f",
       "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
@@ -63,23 +113,6 @@
       "readingMinutes": 1,
       "editorial": false
     },
-    {
-      "id": "e56d98dfaae71c1b",
-      "title": "Monetary policy decisions",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-10T12:15:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    }
-  ],
-  "archive": [
     {
       "id": "58b0a841bbd5011d",
       "title": "Interest rates could rise again across the world – here's why",
