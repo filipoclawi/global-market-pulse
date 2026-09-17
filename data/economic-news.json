@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T04:48:54Z",
-  "checkedAt": "2026-09-17T04:48:54Z",
-  "lastAttemptAt": "2026-09-17T04:48:54Z",
+  "generatedAt": "2026-09-17T11:37:33Z",
+  "checkedAt": "2026-09-17T11:37:33Z",
+  "lastAttemptAt": "2026-09-17T11:37:33Z",
   "dataAsOf": "2026-09-17",
   "windowStart": "2026-09-07",
   "refreshCadenceHours": 6,
@@ -16,19 +16,50 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 4,
+  "freshStoryCount": 6,
   "stories": [
     {
-      "id": "f566869bab0224fb",
-      "title": "US interest rates raised for first time in three years",
-      "preview": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
-      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
+      "id": "098735124be46041",
+      "title": "UK interest rates held at 3.75% despite rising inflation",
+      "preview": "Rates are held for the sixth time in a row but the Bank says they are likely to rise if high energy prices continue.",
+      "summary": "Rates are held for the sixth time in a row but the Bank says they are likely to rise if high energy prices continue.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T00:40:17Z",
+      "publishedAt": "2026-09-17T11:15:10Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "8c691a0ac9bf0ee0",
+      "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T11:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "c74aa5c62446b028",
+      "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+      "preview": "Exchange of letters between the Governor and the Chancellor",
+      "summary": "Exchange of letters between the Governor and the Chancellor",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-17T11:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -81,6 +112,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "f566869bab0224fb",
+      "title": "US interest rates raised for first time in three years",
+      "preview": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
+      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T00:40:17Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "de75844f7ded302e",
       "title": "What's happening to UK interest rates and what does it mean for mortgages?",
