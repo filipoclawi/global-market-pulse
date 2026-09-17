@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T21:15:31Z",
-  "checkedAt": "2026-09-16T21:15:31Z",
-  "lastAttemptAt": "2026-09-16T21:15:31Z",
-  "dataAsOf": "2026-09-16",
-  "windowStart": "2026-09-06",
+  "generatedAt": "2026-09-17T04:48:54Z",
+  "checkedAt": "2026-09-17T04:48:54Z",
+  "lastAttemptAt": "2026-09-17T04:48:54Z",
+  "dataAsOf": "2026-09-17",
+  "windowStart": "2026-09-07",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -21,10 +21,10 @@
     {
       "id": "f566869bab0224fb",
       "title": "US interest rates raised for first time in three years",
-      "preview": "The Federal Reserve unanimously voted to increase interest rates to 3.75%-4% from 3.5%-3.75% on Wednesday.",
-      "summary": "The Federal Reserve unanimously voted to increase interest rates to 3.75%-4% from 3.5%-3.75% on Wednesday.",
+      "preview": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
+      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-16T21:02:11Z",
+      "publishedAt": "2026-09-17T00:40:17Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_campaign=rss&at_medium=RSS",
       "tags": [
