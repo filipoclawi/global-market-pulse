@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T11:37:33Z",
-  "checkedAt": "2026-09-17T11:37:33Z",
-  "lastAttemptAt": "2026-09-17T11:37:33Z",
+  "generatedAt": "2026-09-17T16:57:14Z",
+  "checkedAt": "2026-09-17T16:57:14Z",
+  "lastAttemptAt": "2026-09-17T16:57:14Z",
   "dataAsOf": "2026-09-17",
   "windowStart": "2026-09-07",
   "refreshCadenceHours": 6,
@@ -16,15 +16,15 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 6,
+  "freshStoryCount": 7,
   "stories": [
     {
       "id": "098735124be46041",
-      "title": "UK interest rates held at 3.75% despite rising inflation",
-      "preview": "Rates are held for the sixth time in a row but the Bank says they are likely to rise if high energy prices continue.",
-      "summary": "Rates are held for the sixth time in a row but the Bank says they are likely to rise if high energy prices continue.",
+      "title": "Interest rates held but Bank signals rise if energy prices stay high",
+      "preview": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
+      "summary": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T11:15:10Z",
+      "publishedAt": "2026-09-17T14:05:38Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_campaign=rss&at_medium=RSS",
       "tags": [
@@ -35,14 +35,29 @@
       "editorial": false
     },
     {
-      "id": "8c691a0ac9bf0ee0",
-      "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
-      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "id": "3f4853e43bd9fb30",
+      "title": "Monetary Policy Committee dates for 2027",
+      "preview": "2027 confirmed dates",
+      "summary": "2027 confirmed dates",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T11:00:00Z",
+      "publishedAt": "2026-09-17T13:30:00Z",
       "sourceLabel": "Bank of England",
-      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+      "sourceUrl": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T11:59:02Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
       ],
@@ -65,17 +80,16 @@
       "editorial": false
     },
     {
-      "id": "01e0e3b16efe4d10",
-      "title": "Petrol and diesel price rises push UK inflation higher",
-      "preview": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
-      "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "id": "28344be41dcfaaa0",
+      "title": "CBO says Iran war driving up inflation, puts price tag at $38 billion",
+      "preview": "Two new, independent reports show detailed looks at the costs of the war in Iran. It's led to shortages in U.S. weapons, supply chain bottlenecks and a price tag in the tens of billions of dollars.",
+      "summary": "Two new, independent reports show detailed looks at the costs of the war in Iran. It's led to shortages in U.S. weapons, supply chain bottlenecks and a price tag in the tens of billions of dollars.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-09-16T14:30:51Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_campaign=rss&at_medium=RSS",
+      "publishedAt": "2026-09-15T20:08:21Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/15/nx-s1-5969793/cbo-says-iran-war-diving-up-inflation-puts-price-tag-at-38-billion",
       "tags": [
-        "Inflation",
-        "Growth"
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -113,6 +127,21 @@
   ],
   "archive": [
     {
+      "id": "8c691a0ac9bf0ee0",
+      "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T11:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "f566869bab0224fb",
       "title": "US interest rates raised for first time in three years",
       "preview": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
@@ -128,16 +157,17 @@
       "editorial": false
     },
     {
-      "id": "de75844f7ded302e",
-      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-16T13:50:59Z",
+      "id": "01e0e3b16efe4d10",
+      "title": "Petrol and diesel price rises push UK inflation higher",
+      "preview": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-16T14:30:51Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Rates"
+        "Inflation",
+        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
