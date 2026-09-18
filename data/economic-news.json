@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T16:57:14Z",
-  "checkedAt": "2026-09-17T21:19:19Z",
-  "lastAttemptAt": "2026-09-17T21:19:19Z",
-  "dataAsOf": "2026-09-17",
-  "windowStart": "2026-09-07",
+  "generatedAt": "2026-09-18T04:39:15Z",
+  "checkedAt": "2026-09-18T04:39:15Z",
+  "lastAttemptAt": "2026-09-18T04:39:15Z",
+  "dataAsOf": "2026-09-18",
+  "windowStart": "2026-09-08",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -18,6 +18,22 @@
   "briefingStale": false,
   "freshStoryCount": 7,
   "stories": [
+    {
+      "id": "cdee651c7558a143",
+      "title": "Japan raises interest rate to new 31-year high to curb rising prices",
+      "preview": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
+      "summary": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-18T02:56:35Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "098735124be46041",
       "title": "Interest rates held but Bank signals rise if energy prices stay high",
@@ -43,21 +59,6 @@
       "publishedAt": "2026-09-17T13:30:00Z",
       "sourceLabel": "Bank of England",
       "sourceUrl": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "de75844f7ded302e",
-      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T11:59:02Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
       ],
@@ -126,6 +127,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T11:59:02Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "8c691a0ac9bf0ee0",
       "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
