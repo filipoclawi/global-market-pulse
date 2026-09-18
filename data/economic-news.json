@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T04:39:15Z",
-  "checkedAt": "2026-09-18T04:39:15Z",
-  "lastAttemptAt": "2026-09-18T04:39:15Z",
+  "generatedAt": "2026-09-18T11:09:53Z",
+  "checkedAt": "2026-09-18T11:09:53Z",
+  "lastAttemptAt": "2026-09-18T11:09:53Z",
   "dataAsOf": "2026-09-18",
   "windowStart": "2026-09-08",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 7,
+  "freshStoryCount": 6,
   "stories": [
     {
       "id": "cdee651c7558a143",
@@ -24,7 +24,7 @@
       "preview": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
       "summary": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-18T02:56:35Z",
+      "publishedAt": "2026-09-18T07:14:57Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_campaign=rss&at_medium=RSS",
       "tags": [
@@ -74,21 +74,6 @@
       "publishedAt": "2026-09-17T11:00:00Z",
       "sourceLabel": "Bank of England",
       "sourceUrl": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "28344be41dcfaaa0",
-      "title": "CBO says Iran war driving up inflation, puts price tag at $38 billion",
-      "preview": "Two new, independent reports show detailed looks at the costs of the war in Iran. It's led to shortages in U.S. weapons, supply chain bottlenecks and a price tag in the tens of billions of dollars.",
-      "summary": "Two new, independent reports show detailed looks at the costs of the war in Iran. It's led to shortages in U.S. weapons, supply chain bottlenecks and a price tag in the tens of billions of dollars.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-09-15T20:08:21Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/09/15/nx-s1-5969793/cbo-says-iran-war-diving-up-inflation-puts-price-tag-at-38-billion",
       "tags": [
         "Inflation"
       ],
@@ -201,6 +186,21 @@
         "Rates",
         "Inflation",
         "Credit"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "28344be41dcfaaa0",
+      "title": "CBO says Iran war driving up inflation, puts price tag at $38 billion",
+      "preview": "Two new, independent reports show detailed looks at the costs of the war in Iran. It's led to shortages in U.S. weapons, supply chain bottlenecks and a price tag in the tens of billions of dollars.",
+      "summary": "Two new, independent reports show detailed looks at the costs of the war in Iran. It's led to shortages in U.S. weapons, supply chain bottlenecks and a price tag in the tens of billions of dollars.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-15T20:08:21Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/15/nx-s1-5969793/cbo-says-iran-war-diving-up-inflation-puts-price-tag-at-38-billion",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
