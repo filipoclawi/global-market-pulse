@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T10:54:28Z",
-  "checkedAt": "2026-09-20T11:18:48Z",
-  "lastAttemptAt": "2026-09-20T11:18:48Z",
+  "generatedAt": "2026-09-20T16:02:01Z",
+  "checkedAt": "2026-09-20T16:02:01Z",
+  "lastAttemptAt": "2026-09-20T16:02:01Z",
   "dataAsOf": "2026-09-19",
   "windowStart": "2026-09-10",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 7,
+  "freshStoryCount": 5,
   "stories": [
     {
       "id": "93e40ec25bb9a781",
@@ -80,22 +80,6 @@
       "editorial": false
     },
     {
-      "id": "01e0e3b16efe4d10",
-      "title": "Petrol and diesel price rises push UK inflation higher",
-      "preview": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
-      "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-09-16T14:30:51Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation",
-        "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "2c7e80504002c16c",
       "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
@@ -106,21 +90,6 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
       "tags": [
         "Credit"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "e56d98dfaae71c1b",
-      "title": "Monetary policy decisions",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-10T12:15:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -184,6 +153,22 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "01e0e3b16efe4d10",
+      "title": "Petrol and diesel price rises push UK inflation higher",
+      "preview": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "summary": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-16T14:30:51Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation",
+        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -275,6 +260,21 @@
       "publishedAt": "2026-09-10T13:00:00Z",
       "sourceLabel": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "e56d98dfaae71c1b",
+      "title": "Monetary policy decisions",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-10T12:15:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
       "tags": [
         "Rates"
       ],
