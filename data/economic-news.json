@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T16:02:01Z",
-  "checkedAt": "2026-09-21T12:43:18Z",
-  "lastAttemptAt": "2026-09-21T12:43:18Z",
+  "generatedAt": "2026-09-21T21:56:56Z",
+  "checkedAt": "2026-09-21T21:56:56Z",
+  "lastAttemptAt": "2026-09-21T21:56:56Z",
   "dataAsOf": "2026-09-19",
   "windowStart": "2026-09-11",
   "refreshCadenceHours": 6,
@@ -34,16 +34,15 @@
       "editorial": false
     },
     {
-      "id": "098735124be46041",
-      "title": "Interest rates held but Bank signals rise if energy prices stay high",
-      "preview": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
-      "summary": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T14:05:38Z",
+      "id": "9e57c2af627aba51",
+      "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+      "preview": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
+      "summary": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-18T17:57:30Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Rates",
         "Inflation"
       ],
       "readingMinutes": 1,
@@ -105,6 +104,22 @@
       "publishedAt": "2026-09-18T07:14:57Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "098735124be46041",
+      "title": "Interest rates held but Bank signals rise if energy prices stay high",
+      "preview": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
+      "summary": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T14:05:38Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates",
         "Inflation"
