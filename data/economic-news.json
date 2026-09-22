@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T21:56:56Z",
-  "checkedAt": "2026-09-22T16:54:43Z",
-  "lastAttemptAt": "2026-09-22T16:54:43Z",
+  "generatedAt": "2026-09-22T21:15:52Z",
+  "checkedAt": "2026-09-22T21:15:52Z",
+  "lastAttemptAt": "2026-09-22T21:15:52Z",
   "dataAsOf": "2026-09-19",
   "windowStart": "2026-09-12",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 4,
   "stories": [
     {
       "id": "93e40ec25bb9a781",
@@ -29,21 +29,6 @@
       "sourceUrl": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "9e57c2af627aba51",
-      "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
-      "preview": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
-      "summary": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-09-18T17:57:30Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -95,6 +80,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "9e57c2af627aba51",
+      "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+      "preview": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
+      "summary": "The bank said it \"assumed\" there would be economic red lines, like oil at $100 a barrel, that the US would be unwilling the cross.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-18T17:57:30Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "cdee651c7558a143",
       "title": "Japan raises interest rate to new 31-year high to curb rising prices",
