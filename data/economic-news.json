@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T21:15:52Z",
-  "checkedAt": "2026-09-23T21:28:00Z",
-  "lastAttemptAt": "2026-09-23T21:28:00Z",
-  "dataAsOf": "2026-09-19",
-  "windowStart": "2026-09-13",
+  "generatedAt": "2026-09-24T04:45:14Z",
+  "checkedAt": "2026-09-24T04:45:14Z",
+  "lastAttemptAt": "2026-09-24T04:45:14Z",
+  "dataAsOf": "2026-09-23",
+  "windowStart": "2026-09-14",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -15,20 +15,20 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
     {
-      "id": "93e40ec25bb9a781",
-      "title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
-      "preview": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy — and the rest of us? Here are some answers.",
-      "summary": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy — and the rest of us? Here are some answers.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-19T09:00:00Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
+      "id": "a3b29adc47aeb343",
+      "title": "'Proteinflation': Meet the people paying up to £100 for a bag of protein",
+      "preview": "Consumers are feeling the squeeze from the rising price of protein.",
+      "summary": "Consumers are feeling the squeeze from the rising price of protein.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-23T23:12:01Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Rates"
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -80,6 +80,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "93e40ec25bb9a781",
+      "title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
+      "preview": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy — and the rest of us? Here are some answers.",
+      "summary": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy — and the rest of us? Here are some answers.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-19T09:00:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "9e57c2af627aba51",
       "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
