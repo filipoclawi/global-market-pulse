@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:45:14Z",
-  "checkedAt": "2026-09-25T17:07:50Z",
-  "lastAttemptAt": "2026-09-25T17:07:50Z",
-  "dataAsOf": "2026-09-23",
+  "generatedAt": "2026-09-25T21:32:22Z",
+  "checkedAt": "2026-09-25T21:32:22Z",
+  "lastAttemptAt": "2026-09-25T21:32:22Z",
+  "dataAsOf": "2026-09-25",
   "windowStart": "2026-09-15",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "5f08beaad2ff0110",
+      "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
+      "preview": "Save or Overpay? What to do with your mortgage if interest rates rise",
+      "summary": "Save or Overpay? What to do with your mortgage if interest rates rise",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-25T18:43:45Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/c65y55j2dxepo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "a3b29adc47aeb343",
       "title": "'Proteinflation': Meet the people paying up to £100 for a bag of protein",
@@ -59,21 +74,6 @@
       "sourceUrl": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "2c7e80504002c16c",
-      "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Tighter credit can slow investment and consumption with a lag. That can pressure risky assets while improving the relative role of high-quality bonds, but the direction depends on whether inflation is also cooling.",
-      "publishedAt": "2026-09-14T09:15:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
-      "tags": [
-        "Credit"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -231,6 +231,21 @@
       "sourceUrl": "https://www.npr.org/2026/09/15/nx-s1-5969793/cbo-says-iran-war-diving-up-inflation-puts-price-tag-at-38-billion",
       "tags": [
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "2c7e80504002c16c",
+      "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Tighter credit can slow investment and consumption with a lag. That can pressure risky assets while improving the relative role of high-quality bonds, but the direction depends on whether inflation is also cooling.",
+      "publishedAt": "2026-09-14T09:15:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
+      "tags": [
+        "Credit"
       ],
       "readingMinutes": 1,
       "editorial": false
