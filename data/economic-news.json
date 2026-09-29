@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T21:32:22Z",
-  "checkedAt": "2026-09-29T05:40:19Z",
-  "lastAttemptAt": "2026-09-29T05:40:19Z",
-  "dataAsOf": "2026-09-25",
+  "generatedAt": "2026-09-29T12:47:59Z",
+  "checkedAt": "2026-09-29T12:47:59Z",
+  "lastAttemptAt": "2026-09-29T12:47:59Z",
+  "dataAsOf": "2026-09-29",
   "windowStart": "2026-09-19",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "de1f7d7983f0a167",
+      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-29T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "5f08beaad2ff0110",
       "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
@@ -59,21 +74,6 @@
       "sourceUrl": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "c74aa5c62446b028",
-      "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
-      "preview": "Exchange of letters between the Governor and the Chancellor",
-      "summary": "Exchange of letters between the Governor and the Chancellor",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-09-17T11:00:00Z",
-      "sourceLabel": "Bank of England",
-      "sourceUrl": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -153,6 +153,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "c74aa5c62446b028",
+      "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+      "preview": "Exchange of letters between the Governor and the Chancellor",
+      "summary": "Exchange of letters between the Governor and the Chancellor",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-09-17T11:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
