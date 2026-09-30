@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:47:59Z",
-  "checkedAt": "2026-09-30T05:28:24Z",
-  "lastAttemptAt": "2026-09-30T05:28:24Z",
-  "dataAsOf": "2026-09-29",
+  "generatedAt": "2026-09-30T12:30:14Z",
+  "checkedAt": "2026-09-30T12:30:14Z",
+  "lastAttemptAt": "2026-09-30T12:30:14Z",
+  "dataAsOf": "2026-09-30",
   "windowStart": "2026-09-20",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,25 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "4831fe84d950aaad",
+      "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 2.2 percent in the second quarter of 2026 (April, May, and June), according to the third estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 2.2 percent in the second quarter of 2026 (April, May, and June), according to the third estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.5 percent (revised). The contributors to the increase in real GDP in the second quarter were consumer spending, investment, and exports. Imports, which are a subtraction in the calculation of GDP, increased. At the state level, real GDP ranged from a 4.0 percent increase in New York to a 2.3 percent decrease in West Virginia.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-30T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "de1f7d7983f0a167",
       "title": "ECB amends monetary policy implementation guidelines as part of regular review",
@@ -59,21 +76,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "3f4853e43bd9fb30",
-      "title": "Monetary Policy Committee dates for 2027",
-      "preview": "2027 confirmed dates",
-      "summary": "2027 confirmed dates",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T13:30:00Z",
-      "sourceLabel": "Bank of England",
-      "sourceUrl": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -138,6 +140,21 @@
       "tags": [
         "Rates",
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "3f4853e43bd9fb30",
+      "title": "Monetary Policy Committee dates for 2027",
+      "preview": "2027 confirmed dates",
+      "summary": "2027 confirmed dates",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-17T13:30:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
+      "tags": [
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
