@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T12:30:14Z",
-  "checkedAt": "2026-09-30T12:30:14Z",
-  "lastAttemptAt": "2026-09-30T12:30:14Z",
+  "generatedAt": "2026-09-30T22:12:29Z",
+  "checkedAt": "2026-09-30T22:12:29Z",
+  "lastAttemptAt": "2026-09-30T22:12:29Z",
   "dataAsOf": "2026-09-30",
   "windowStart": "2026-09-20",
   "refreshCadenceHours": 6,
@@ -15,9 +15,40 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "dcc7f652075d2e51",
+      "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-30T15:45:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "31f0627c13018beb",
+      "title": "Personal Income and Outlays, August 2026",
+      "preview": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less…",
+      "summary": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $68.6 billion (0.3 percent), and personal consumption expenditures (PCE) increased $190.8 billion (0.9 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $190.7 billion in August. Personal saving was $990.2 billion, and the personal saving rate-personal saving as a percentage of DPI-was 4.1 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-30T12:31:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+      "tags": [
+        "Rates",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "4831fe84d950aaad",
       "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
@@ -36,21 +67,6 @@
       "editorial": false
     },
     {
-      "id": "de1f7d7983f0a167",
-      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-29T08:00:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "5f08beaad2ff0110",
       "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
       "preview": "Save or Overpay? What to do with your mortgage if interest rates rise",
@@ -59,6 +75,23 @@
       "publishedAt": "2026-09-25T18:43:45Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/videos/c65y55j2dxepo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    }
+  ],
+  "archive": [
+    {
+      "id": "de1f7d7983f0a167",
+      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-29T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
       "tags": [
         "Rates"
       ],
@@ -79,9 +112,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "93e40ec25bb9a781",
       "title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
