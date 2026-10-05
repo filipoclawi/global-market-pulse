@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T22:12:29Z",
-  "checkedAt": "2026-10-05T05:34:03Z",
-  "lastAttemptAt": "2026-10-05T05:34:03Z",
-  "dataAsOf": "2026-09-30",
+  "generatedAt": "2026-10-05T14:30:44Z",
+  "checkedAt": "2026-10-05T14:30:44Z",
+  "lastAttemptAt": "2026-10-05T14:30:44Z",
+  "dataAsOf": "2026-10-05",
   "windowStart": "2026-09-25",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,24 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "4b0f195677c4ae5a",
+      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-05T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "dcc7f652075d2e51",
       "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
@@ -65,21 +80,6 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
-    {
-      "id": "5f08beaad2ff0110",
-      "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
-      "preview": "Save or Overpay? What to do with your mortgage if interest rates rise",
-      "summary": "Save or Overpay? What to do with your mortgage if interest rates rise",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-25T18:43:45Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/c65y55j2dxepo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
     }
   ],
   "archive": [
@@ -92,6 +92,21 @@
       "publishedAt": "2026-09-29T08:00:00Z",
       "sourceLabel": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5f08beaad2ff0110",
+      "title": "Save or Overpay? What to do with your mortgage if interest rates rise",
+      "preview": "Save or Overpay? What to do with your mortgage if interest rates rise",
+      "summary": "Save or Overpay? What to do with your mortgage if interest rates rise",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-25T18:43:45Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/c65y55j2dxepo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
       ],
