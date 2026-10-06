@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T14:30:44Z",
-  "checkedAt": "2026-10-06T06:16:16Z",
-  "lastAttemptAt": "2026-10-06T06:16:16Z",
-  "dataAsOf": "2026-10-05",
+  "generatedAt": "2026-10-06T13:20:32Z",
+  "checkedAt": "2026-10-06T13:20:32Z",
+  "lastAttemptAt": "2026-10-06T13:20:32Z",
+  "dataAsOf": "2026-10-06",
   "windowStart": "2026-09-26",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -18,6 +18,21 @@
   "briefingStale": false,
   "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "53e78c0da57b8ce9",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "preview": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in…",
+      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-10-06T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "4b0f195677c4ae5a",
       "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
@@ -49,22 +64,6 @@
       "editorial": false
     },
     {
-      "id": "31f0627c13018beb",
-      "title": "Personal Income and Outlays, August 2026",
-      "preview": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less…",
-      "summary": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $68.6 billion (0.3 percent), and personal consumption expenditures (PCE) increased $190.8 billion (0.9 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $190.7 billion in August. Personal saving was $990.2 billion, and the personal saving rate-personal saving as a percentage of DPI-was 4.1 percent.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-30T12:31:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-      "tags": [
-        "Rates",
-        "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "4831fe84d950aaad",
       "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
       "preview": "Real gross domestic product (GDP) increased at an annual rate of 2.2 percent in the second quarter of 2026 (April, May, and June), according to the third estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
@@ -83,6 +82,22 @@
     }
   ],
   "archive": [
+    {
+      "id": "31f0627c13018beb",
+      "title": "Personal Income and Outlays, August 2026",
+      "preview": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less…",
+      "summary": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $68.6 billion (0.3 percent), and personal consumption expenditures (PCE) increased $190.8 billion (0.9 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $190.7 billion in August. Personal saving was $990.2 billion, and the personal saving rate-personal saving as a percentage of DPI-was 4.1 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-09-30T12:31:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+      "tags": [
+        "Rates",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "de1f7d7983f0a167",
       "title": "ECB amends monetary policy implementation guidelines as part of regular review",
