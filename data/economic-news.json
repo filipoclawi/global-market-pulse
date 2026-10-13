@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T00:36:15Z",
-  "checkedAt": "2026-10-13T00:36:15Z",
-  "lastAttemptAt": "2026-10-13T00:36:15Z",
-  "dataAsOf": "2026-10-12",
+  "generatedAt": "2026-10-13T14:06:47Z",
+  "checkedAt": "2026-10-13T14:06:47Z",
+  "lastAttemptAt": "2026-10-13T14:06:47Z",
+  "dataAsOf": "2026-10-13",
   "windowStart": "2026-10-03",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -19,6 +19,22 @@
   "freshStoryCount": 3,
   "stories": [
     {
+      "id": "508ff5f47c2665b8",
+      "title": "UK growth forecast upgraded but higher energy prices to hit economy next year",
+      "preview": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
+      "summary": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-13T09:38:54Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "fb6ec87355cae9d6",
       "title": "Why some have no choice but to pay costly oil prices",
       "preview": "Rural communities are badly hit by the rising cost of heating oil, as our Wiltshire reporter explains.",
@@ -27,21 +43,6 @@
       "publishedAt": "2026-10-12T15:34:48Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/videos/cq4g1dn81y9xo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "e5421dc295c285ab",
-      "title": "Why some have no choice but to pay costly oil prices",
-      "preview": "The rural communities vulnerable to heating oil prices rises as the weather gets colder.",
-      "summary": "The rural communities vulnerable to heating oil prices rises as the weather gets colder.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-10-12T05:27:55Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgm09xvlvjeo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
       ],
@@ -80,6 +81,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "e5421dc295c285ab",
+      "title": "Why some have no choice but to pay costly oil prices",
+      "preview": "The rural communities vulnerable to heating oil prices rises as the weather gets colder.",
+      "summary": "The rural communities vulnerable to heating oil prices rises as the weather gets colder.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-12T05:27:55Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgm09xvlvjeo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "dcc7f652075d2e51",
       "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
