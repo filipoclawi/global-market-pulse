@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T14:06:47Z",
-  "checkedAt": "2026-10-14T11:46:59Z",
-  "lastAttemptAt": "2026-10-14T11:46:59Z",
-  "dataAsOf": "2026-10-13",
+  "generatedAt": "2026-10-14T17:06:50Z",
+  "checkedAt": "2026-10-14T17:06:50Z",
+  "lastAttemptAt": "2026-10-14T17:06:50Z",
+  "dataAsOf": "2026-10-14",
   "windowStart": "2026-10-04",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,24 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
+    {
+      "id": "f8637ef6a7435263",
+      "title": "'It's rough out here': Americans struggle with rising inflation",
+      "preview": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
+      "summary": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-14T15:57:11Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c305649p2d6o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "508ff5f47c2665b8",
       "title": "UK growth forecast upgraded but higher energy prices to hit economy next year",
@@ -30,21 +45,6 @@
       "tags": [
         "Inflation",
         "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "fb6ec87355cae9d6",
-      "title": "Why some have no choice but to pay costly oil prices",
-      "preview": "Rural communities are badly hit by the rising cost of heating oil, as our Wiltshire reporter explains.",
-      "summary": "Rural communities are badly hit by the rising cost of heating oil, as our Wiltshire reporter explains.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-10-12T15:34:48Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cq4g1dn81y9xo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -81,6 +81,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "fb6ec87355cae9d6",
+      "title": "Why some have no choice but to pay costly oil prices",
+      "preview": "Rural communities are badly hit by the rising cost of heating oil, as our Wiltshire reporter explains.",
+      "summary": "Rural communities are badly hit by the rising cost of heating oil, as our Wiltshire reporter explains.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-12T15:34:48Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cq4g1dn81y9xo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "e5421dc295c285ab",
       "title": "Why some have no choice but to pay costly oil prices",
