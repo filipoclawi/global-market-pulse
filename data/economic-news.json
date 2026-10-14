@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T17:06:50Z",
-  "checkedAt": "2026-10-14T17:06:50Z",
-  "lastAttemptAt": "2026-10-14T17:06:50Z",
+  "generatedAt": "2026-10-14T21:38:10Z",
+  "checkedAt": "2026-10-14T21:38:10Z",
+  "lastAttemptAt": "2026-10-14T21:38:10Z",
   "dataAsOf": "2026-10-14",
   "windowStart": "2026-10-04",
   "refreshCadenceHours": 6,
@@ -19,14 +19,14 @@
   "freshStoryCount": 4,
   "stories": [
     {
-      "id": "f8637ef6a7435263",
-      "title": "'It's rough out here': Americans struggle with rising inflation",
-      "preview": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
-      "summary": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
+      "id": "af5dd8376c3bfd22",
+      "title": "The Chicago Fed President answers questions on inflation numbers",
+      "preview": "NPR's Scott Detrow speaks with Austan Goolsbee, president of the Federal Reserve Bank of Chicago, about the inflation data that was released on Wednesday.",
+      "summary": "NPR's Scott Detrow speaks with Austan Goolsbee, president of the Federal Reserve Bank of Chicago, about the inflation data that was released on Wednesday.",
       "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-10-14T15:57:11Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c305649p2d6o?at_campaign=rss&at_medium=RSS",
+      "publishedAt": "2026-10-14T20:27:56Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/14/nx-s1-6000584/the-chicago-fed-president-answers-questions-on-inflation-numbers",
       "tags": [
         "Inflation"
       ],
@@ -81,6 +81,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "f8637ef6a7435263",
+      "title": "'It's rough out here': Americans struggle with rising inflation",
+      "preview": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
+      "summary": "US inflation continues to rise, and this month the jump was above forecasts. Here's how some are surviving.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-14T15:57:11Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c305649p2d6o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "fb6ec87355cae9d6",
       "title": "Why some have no choice but to pay costly oil prices",
