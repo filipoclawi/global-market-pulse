@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T04:33:03Z",
-  "checkedAt": "2026-10-16T04:26:38Z",
-  "lastAttemptAt": "2026-10-16T04:26:38Z",
+  "generatedAt": "2026-10-16T11:18:04Z",
+  "checkedAt": "2026-10-16T11:18:04Z",
+  "lastAttemptAt": "2026-10-16T11:18:04Z",
   "dataAsOf": "2026-10-14",
   "windowStart": "2026-10-06",
   "refreshCadenceHours": 6,
@@ -49,6 +49,21 @@
       "editorial": false
     },
     {
+      "id": "2249730c1b3ee43c",
+      "title": "US inflation rises more than expected - here's what is happening with prices",
+      "preview": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
+      "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-14T15:26:14Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
       "id": "53e78c0da57b8ce9",
       "title": "U.S. International Trade in Goods and Services, August 2026",
       "preview": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in…",
@@ -59,21 +74,6 @@
       "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
       "tags": [
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "4b0f195677c4ae5a",
-      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-10-05T08:00:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -122,6 +122,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgm09xvlvjeo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "4b0f195677c4ae5a",
+      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-05T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
+      "tags": [
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
