@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T11:18:04Z",
-  "checkedAt": "2026-10-18T20:37:40Z",
-  "lastAttemptAt": "2026-10-18T20:37:40Z",
-  "dataAsOf": "2026-10-14",
-  "windowStart": "2026-10-08",
+  "generatedAt": "2026-10-19T04:36:25Z",
+  "checkedAt": "2026-10-19T04:36:25Z",
+  "lastAttemptAt": "2026-10-19T04:36:25Z",
+  "dataAsOf": "2026-10-18",
+  "windowStart": "2026-10-09",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "d7a75a52b48e950d",
+      "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "preview": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
+      "summary": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-10-18T23:28:45Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "af5dd8376c3bfd22",
       "title": "The Chicago Fed President answers questions on inflation numbers",
@@ -49,6 +64,23 @@
       "editorial": false
     },
     {
+      "id": "c5ab069c4a2bf9e0",
+      "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+      "preview": "Consumer prices in September jumped 3.7% from a year ago. The Social Security Administration said benefits will increase next year to help keep pace with the rising cost of living.",
+      "summary": "Consumer prices in September jumped 3.7% from a year ago. The Social Security Administration said benefits will increase next year to help keep pace with the rising cost of living.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-10-14T13:33:44Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    }
+  ],
+  "archive": [
+    {
       "id": "2249730c1b3ee43c",
       "title": "US inflation rises more than expected - here's what is happening with prices",
       "preview": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
@@ -63,23 +95,6 @@
       "readingMinutes": 1,
       "editorial": false
     },
-    {
-      "id": "53e78c0da57b8ce9",
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "preview": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in…",
-      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
-      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-10-06T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-      "tags": [
-        "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    }
-  ],
-  "archive": [
     {
       "id": "508ff5f47c2665b8",
       "title": "UK growth forecast upgraded but higher energy prices to hit economy next year",
@@ -122,6 +137,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cqgm09xvlvjeo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "53e78c0da57b8ce9",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "preview": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in…",
+      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-10-06T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "tags": [
+        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
