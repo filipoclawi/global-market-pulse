@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T17:02:45Z",
-  "checkedAt": "2026-10-23T17:02:45Z",
-  "lastAttemptAt": "2026-10-23T17:02:45Z",
+  "generatedAt": "2026-10-23T21:21:36Z",
+  "checkedAt": "2026-10-23T21:21:36Z",
+  "lastAttemptAt": "2026-10-23T21:21:36Z",
   "dataAsOf": "2026-10-23",
   "windowStart": "2026-10-13",
   "refreshCadenceHours": 6,
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "92922fc7cdd0a961",
+      "title": "White House says the US is lifting tariffs on some Canadian goods",
+      "preview": "Susan Collins, a Republican in a tight race to keep her senate seat in next month's elections, said she had been working with the White House on tariff relief.",
+      "summary": "Susan Collins, a Republican in a tight race to keep her senate seat in next month's elections, said she had been working with the White House on tariff relief.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-10-23T20:39:39Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "e66ae524d833e168",
       "title": "Island inflation rate rises to 3%, figures show",
@@ -64,7 +79,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "d7a75a52b48e950d",
       "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
@@ -79,9 +96,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "af5dd8376c3bfd22",
       "title": "The Chicago Fed President answers questions on inflation numbers",
