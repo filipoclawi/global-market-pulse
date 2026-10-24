@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T21:21:36Z",
-  "checkedAt": "2026-10-23T21:21:36Z",
-  "lastAttemptAt": "2026-10-23T21:21:36Z",
-  "dataAsOf": "2026-10-23",
-  "windowStart": "2026-10-13",
+  "generatedAt": "2026-10-24T04:31:25Z",
+  "checkedAt": "2026-10-24T04:31:25Z",
+  "lastAttemptAt": "2026-10-24T04:31:25Z",
+  "dataAsOf": "2026-10-24",
+  "windowStart": "2026-10-14",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -20,11 +20,11 @@
   "stories": [
     {
       "id": "92922fc7cdd0a961",
-      "title": "White House says the US is lifting tariffs on some Canadian goods",
-      "preview": "Susan Collins, a Republican in a tight race to keep her senate seat in next month's elections, said she had been working with the White House on tariff relief.",
-      "summary": "Susan Collins, a Republican in a tight race to keep her senate seat in next month's elections, said she had been working with the White House on tariff relief.",
+      "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+      "preview": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+      "summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-10-23T20:39:39Z",
+      "publishedAt": "2026-10-24T00:36:47Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_campaign=rss&at_medium=RSS",
       "tags": [
