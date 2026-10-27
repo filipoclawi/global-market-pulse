@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-10-25T04:36:03Z",
-  "checkedAt": "2026-10-26T22:37:24Z",
-  "lastAttemptAt": "2026-10-26T22:37:24Z",
+  "checkedAt": "2026-10-27T04:58:38Z",
+  "lastAttemptAt": "2026-10-27T04:58:38Z",
   "dataAsOf": "2026-10-24",
-  "windowStart": "2026-10-16",
+  "windowStart": "2026-10-17",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
