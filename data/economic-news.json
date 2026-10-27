@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T04:36:03Z",
-  "checkedAt": "2026-10-27T04:58:38Z",
-  "lastAttemptAt": "2026-10-27T04:58:38Z",
-  "dataAsOf": "2026-10-24",
+  "generatedAt": "2026-10-27T12:05:39Z",
+  "checkedAt": "2026-10-27T12:05:39Z",
+  "lastAttemptAt": "2026-10-27T12:05:39Z",
+  "dataAsOf": "2026-10-27",
   "windowStart": "2026-10-17",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -18,6 +18,21 @@
   "briefingStale": true,
   "freshStoryCount": 1,
   "stories": [
+    {
+      "id": "ea55f93311ecaa74",
+      "title": "Chancellor to cut tariffs on some food and freeze fuel duty to give families 'breathing space'",
+      "preview": "A series of small announcements are part of John Healey's pledge to give households help with the cost of living.",
+      "summary": "A series of small announcements are part of John Healey's pledge to give households help with the cost of living.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-10-27T11:15:53Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "077396b23a98de66",
       "title": "Trade tariffs cause whiplash at Port Milwaukee",
@@ -63,7 +78,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "4454dc61f80074fc",
       "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
@@ -79,9 +96,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "8271313091839a9c",
       "title": "Trump sued over Canadian tariffs in latest legal challenge",
