@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T12:05:39Z",
-  "checkedAt": "2026-10-28T12:46:39Z",
-  "lastAttemptAt": "2026-10-28T12:46:39Z",
-  "dataAsOf": "2026-10-27",
+  "generatedAt": "2026-10-28T22:31:14Z",
+  "checkedAt": "2026-10-28T22:31:14Z",
+  "lastAttemptAt": "2026-10-28T22:31:14Z",
+  "dataAsOf": "2026-10-28",
   "windowStart": "2026-10-18",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,39 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "f2384183d56fe5b7",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "preview": "The Federal Reserve opted to leave its benchmark interest rate unchanged — but investors widely expect the central bank to raise rates at its next meeting in December to combat stubborn inflation.",
+      "summary": "The Federal Reserve opted to leave its benchmark interest rate unchanged — but investors widely expect the central bank to raise rates at its next meeting in December to combat stubborn inflation.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-28T18:04:42Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "5ca9250a110cd819",
+      "title": "Remit for the Monetary Policy Committee - October 2026",
+      "preview": "Letter from the Chancellor to the Governor",
+      "summary": "Letter from the Chancellor to the Governor",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-28T14:16:49Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "ea55f93311ecaa74",
       "title": "Chancellor to cut tariffs on some food and freeze fuel duty to give families 'breathing space'",
@@ -47,7 +78,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "92922fc7cdd0a961",
       "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
@@ -78,9 +111,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "4454dc61f80074fc",
       "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
