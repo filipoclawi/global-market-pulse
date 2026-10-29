@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T22:31:14Z",
-  "checkedAt": "2026-10-29T05:42:44Z",
-  "lastAttemptAt": "2026-10-29T05:42:44Z",
-  "dataAsOf": "2026-10-28",
+  "generatedAt": "2026-10-29T12:55:28Z",
+  "checkedAt": "2026-10-29T12:55:28Z",
+  "lastAttemptAt": "2026-10-29T12:55:28Z",
+  "dataAsOf": "2026-10-29",
   "windowStart": "2026-10-19",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,9 +15,57 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 5,
   "stories": [
+    {
+      "id": "aeb9f5365fde19f4",
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "ed83cb0bc28656a3",
+      "title": "Personal Income and Outlays, September 2026",
+      "preview": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less…",
+      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a percentage of DPI–was 3.8 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "tags": [
+        "Rates",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "15219866819bb0a7",
+      "title": "Tariffs, diesel and computer chips are driving up costs for automakers",
+      "preview": "American auto companies say they are paying more for key components like computer chips, steel and copper — plus the fuel needed to transport their products.",
+      "summary": "American auto companies say they are paying more for key components like computer chips, steel and copper — plus the fuel needed to transport their products.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-10-29T09:00:00Z",
+      "sourceLabel": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/29/nx-s1-6008066/automakers-inflation-tariffs-chips-diesel-earnings",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "f2384183d56fe5b7",
       "title": "Fed holds interest rates steady even as inflation remains stubborn",
@@ -48,7 +96,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "ea55f93311ecaa74",
       "title": "Chancellor to cut tariffs on some food and freeze fuel duty to give families 'breathing space'",
@@ -78,9 +128,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "92922fc7cdd0a961",
       "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
