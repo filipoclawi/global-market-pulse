@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T12:55:28Z",
-  "checkedAt": "2026-10-29T12:55:28Z",
-  "lastAttemptAt": "2026-10-29T12:55:28Z",
+  "generatedAt": "2026-10-29T22:42:52Z",
+  "checkedAt": "2026-10-29T22:42:52Z",
+  "lastAttemptAt": "2026-10-29T22:42:52Z",
   "dataAsOf": "2026-10-29",
   "windowStart": "2026-10-19",
   "refreshCadenceHours": 6,
@@ -18,6 +18,21 @@
   "briefingStale": false,
   "freshStoryCount": 5,
   "stories": [
+    {
+      "id": "1fb78f269ee59b02",
+      "title": "Monetary policy decisions",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T13:15:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "aeb9f5365fde19f4",
       "title": "GDP (Advance Estimate), 3rd Quarter 2026",
@@ -81,7 +96,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "5ca9250a110cd819",
       "title": "Remit for the Monetary Policy Committee - October 2026",
@@ -96,9 +113,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "ea55f93311ecaa74",
       "title": "Chancellor to cut tariffs on some food and freeze fuel duty to give families 'breathing space'",
