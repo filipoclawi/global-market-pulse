@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T22:42:52Z",
-  "checkedAt": "2026-10-30T12:48:26Z",
-  "lastAttemptAt": "2026-10-30T12:48:26Z",
+  "generatedAt": "2026-10-30T22:15:27Z",
+  "checkedAt": "2026-10-30T22:15:27Z",
+  "lastAttemptAt": "2026-10-30T22:15:27Z",
   "dataAsOf": "2026-10-29",
   "windowStart": "2026-10-20",
   "refreshCadenceHours": 6,
@@ -18,6 +18,21 @@
   "briefingStale": false,
   "freshStoryCount": 5,
   "stories": [
+    {
+      "id": "a4d4ddf323db3e6b",
+      "title": "US interest rates held steady and economy grows - what it means for you",
+      "preview": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T17:15:05Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "1fb78f269ee59b02",
       "title": "Monetary policy decisions",
@@ -80,7 +95,9 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
+    }
+  ],
+  "archive": [
     {
       "id": "f2384183d56fe5b7",
       "title": "Fed holds interest rates steady even as inflation remains stubborn",
@@ -96,9 +113,7 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    }
-  ],
-  "archive": [
+    },
     {
       "id": "5ca9250a110cd819",
       "title": "Remit for the Monetary Policy Committee - October 2026",
