@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T22:15:27Z",
-  "checkedAt": "2026-11-03T14:05:57Z",
-  "lastAttemptAt": "2026-11-03T14:05:57Z",
-  "dataAsOf": "2026-10-29",
+  "generatedAt": "2026-11-03T23:17:21Z",
+  "checkedAt": "2026-11-03T23:17:21Z",
+  "lastAttemptAt": "2026-11-03T23:17:21Z",
+  "dataAsOf": "2026-11-03",
   "windowStart": "2026-10-24",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,18 +15,18 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 4,
   "stories": [
     {
-      "id": "a4d4ddf323db3e6b",
-      "title": "US interest rates held steady and economy grows - what it means for you",
-      "preview": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
-      "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "id": "de75844f7ded302e",
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-10-29T17:15:05Z",
+      "publishedAt": "2026-11-03T15:51:23Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
       ],
@@ -83,6 +83,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "a4d4ddf323db3e6b",
+      "title": "US interest rates held steady and economy grows - what it means for you",
+      "preview": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T17:15:05Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "15219866819bb0a7",
       "title": "Tariffs, diesel and computer chips are driving up costs for automakers",
@@ -536,21 +551,6 @@
       "publishedAt": "2026-09-17T13:30:00Z",
       "sourceLabel": "Bank of England",
       "sourceUrl": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "de75844f7ded302e",
-      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-      "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-09-17T11:59:02Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
       ],
