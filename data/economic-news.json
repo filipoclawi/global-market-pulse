@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T23:17:21Z",
-  "checkedAt": "2026-11-04T06:10:38Z",
-  "lastAttemptAt": "2026-11-04T06:10:38Z",
-  "dataAsOf": "2026-11-03",
+  "generatedAt": "2026-11-04T14:27:03Z",
+  "checkedAt": "2026-11-04T14:27:03Z",
+  "lastAttemptAt": "2026-11-04T14:27:03Z",
+  "dataAsOf": "2026-11-04",
   "windowStart": "2026-10-25",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 4,
+  "freshStoryCount": 5,
   "stories": [
     {
       "id": "de75844f7ded302e",
@@ -24,11 +24,26 @@
       "preview": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
       "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-03T15:51:23Z",
+      "publishedAt": "2026-11-04T10:47:31Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "82f219a74bf9283c",
+      "title": "Swim and gym prices set to rise above inflation",
+      "preview": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
+      "summary": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-11-04T06:13:19Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
