@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T06:39:42Z",
-  "checkedAt": "2026-11-05T06:39:42Z",
-  "lastAttemptAt": "2026-11-05T06:39:42Z",
+  "generatedAt": "2026-11-05T19:53:51Z",
+  "checkedAt": "2026-11-05T19:53:51Z",
+  "lastAttemptAt": "2026-11-05T19:53:51Z",
   "dataAsOf": "2026-11-05",
   "windowStart": "2026-10-26",
   "refreshCadenceHours": 6,
@@ -16,17 +16,47 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 5,
+  "freshStoryCount": 7,
   "stories": [
     {
       "id": "7631f5b12f13c5d9",
-      "title": "Interest rates expected to rise for first time in over three years",
-      "preview": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
-      "summary": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+      "title": "Interest rates hiked to 4% in first increase in over three years",
+      "preview": "Most analysts expected the increase from 3.75% to 4%.",
+      "summary": "Most analysts expected the increase from 3.75% to 4%.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-05T00:00:09Z",
+      "publishedAt": "2026-11-05T17:09:55Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "c015fed1fc92be23",
+      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-05T12:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "226bfa0750649d32",
+      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-05T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
       "tags": [
         "Rates"
       ],
