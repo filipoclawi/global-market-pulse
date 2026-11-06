@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T19:53:51Z",
-  "checkedAt": "2026-11-05T19:53:51Z",
-  "lastAttemptAt": "2026-11-05T19:53:51Z",
+  "generatedAt": "2026-11-06T06:37:32Z",
+  "checkedAt": "2026-11-06T06:37:32Z",
+  "lastAttemptAt": "2026-11-06T06:37:32Z",
   "dataAsOf": "2026-11-05",
-  "windowStart": "2026-10-26",
+  "windowStart": "2026-10-27",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 7,
+  "freshStoryCount": 6,
   "stories": [
     {
       "id": "7631f5b12f13c5d9",
@@ -59,21 +59,6 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "82f219a74bf9283c",
-      "title": "Swim and gym prices set to rise above inflation",
-      "preview": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
-      "summary": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-11-04T06:13:19Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -139,6 +124,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "82f219a74bf9283c",
+      "title": "Swim and gym prices set to rise above inflation",
+      "preview": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
+      "summary": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-11-04T06:13:19Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
