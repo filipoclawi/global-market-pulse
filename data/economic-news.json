@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T06:37:32Z",
-  "checkedAt": "2026-11-06T19:20:15Z",
-  "lastAttemptAt": "2026-11-06T19:20:15Z",
-  "dataAsOf": "2026-11-05",
-  "windowStart": "2026-10-27",
+  "generatedAt": "2026-11-07T05:53:40Z",
+  "checkedAt": "2026-11-07T05:53:40Z",
+  "lastAttemptAt": "2026-11-07T05:53:40Z",
+  "dataAsOf": "2026-11-07",
+  "windowStart": "2026-10-28",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -19,16 +19,17 @@
   "freshStoryCount": 6,
   "stories": [
     {
-      "id": "7631f5b12f13c5d9",
-      "title": "Interest rates hiked to 4% in first increase in over three years",
-      "preview": "Most analysts expected the increase from 3.75% to 4%.",
-      "summary": "Most analysts expected the increase from 3.75% to 4%.",
+      "id": "f53cf0dd8584a1dc",
+      "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets",
+      "preview": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+      "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-05T17:09:55Z",
+      "publishedAt": "2026-11-07T01:41:36Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_campaign=rss&at_medium=RSS",
       "tags": [
-        "Rates"
+        "Rates",
+        "Credit"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -113,6 +114,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "7631f5b12f13c5d9",
+      "title": "Interest rates hiked to 4% in first increase in over three years",
+      "preview": "Most analysts expected the increase from 3.75% to 4%.",
+      "summary": "Most analysts expected the increase from 3.75% to 4%.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-05T17:09:55Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "de75844f7ded302e",
       "title": "What's happening to UK interest rates and what does it mean for mortgages?",
