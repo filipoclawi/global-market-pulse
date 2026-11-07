@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T05:53:40Z",
-  "checkedAt": "2026-11-07T12:55:03Z",
-  "lastAttemptAt": "2026-11-07T12:55:03Z",
+  "generatedAt": "2026-11-07T21:45:41Z",
+  "checkedAt": "2026-11-07T21:45:41Z",
+  "lastAttemptAt": "2026-11-07T21:45:41Z",
   "dataAsOf": "2026-11-07",
   "windowStart": "2026-10-28",
   "refreshCadenceHours": 6,
@@ -20,7 +20,7 @@
   "stories": [
     {
       "id": "f53cf0dd8584a1dc",
-      "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets",
+      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
       "preview": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
       "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
