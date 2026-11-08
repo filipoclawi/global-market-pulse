@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T21:45:41Z",
-  "checkedAt": "2026-11-08T05:55:50Z",
-  "lastAttemptAt": "2026-11-08T05:55:50Z",
+  "generatedAt": "2026-11-08T13:17:15Z",
+  "checkedAt": "2026-11-08T13:17:15Z",
+  "lastAttemptAt": "2026-11-08T13:17:15Z",
   "dataAsOf": "2026-11-07",
   "windowStart": "2026-10-29",
   "refreshCadenceHours": 6,
@@ -16,7 +16,7 @@
   ],
   "staleSources": [],
   "briefingStale": false,
-  "freshStoryCount": 6,
+  "freshStoryCount": 4,
   "stories": [
     {
       "id": "f53cf0dd8584a1dc",
@@ -65,49 +65,16 @@
       "editorial": false
     },
     {
-      "id": "1fb78f269ee59b02",
-      "title": "Monetary policy decisions",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-10-29T13:15:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "aeb9f5365fde19f4",
-      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "preview": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis…",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-10-29T12:30:00Z",
+      "id": "9cc53e9eda9e7cde",
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "preview": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion…",
+      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-11-04T13:30:00Z",
       "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
       "tags": [
-        "Rates",
-        "Growth",
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "ed83cb0bc28656a3",
-      "title": "Personal Income and Outlays, September 2026",
-      "preview": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less…",
-      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a percentage of DPI–was 3.8 percent.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-10-29T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
-      "tags": [
-        "Rates",
-        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -170,6 +137,54 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "1fb78f269ee59b02",
+      "title": "Monetary policy decisions",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T13:15:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "aeb9f5365fde19f4",
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "ed83cb0bc28656a3",
+      "title": "Personal Income and Outlays, September 2026",
+      "preview": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less…",
+      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a percentage of DPI–was 3.8 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-10-29T12:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "tags": [
+        "Rates",
+        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -1599,23 +1614,6 @@
         "Rates",
         "Inflation",
         "Europe"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
-    },
-    {
-      "id": "japan-bond-fiscal-pressure-2026-07",
-      "title": "Japan’s growth ambitions meet a less forgiving bond market",
-      "preview": "Japan’s government wants to accelerate investment in strategic industries, but rising government-bond yields show that financing conditions can no longer be taken for granted. The tension matters well beyond Japan because its bond market is one of the world’s largest.",
-      "summary": "Japan’s new economic blueprint emphasises state-backed investment in growth industries, while investors are increasingly focused on inflation and the fiscal cost of new commitments. Japanese government-bond yields have risen as the Bank of Japan reduces extraordinary support and the market asks for more compensation to hold long-dated debt. Higher domestic yields can change the incentives of Japanese institutions that own large amounts of overseas bonds: some foreign assets become less attractive once currency hedging is included. The result is a structural adjustment, not merely a one-day sell-off, and it may unfold unevenly as policy and inflation expectations change.",
-      "whyItMatters": "This is a reminder that duration risk exists even in historically low-yield markets. A globally diversified bond allocation should account for currency hedging, maturity and issuer quality rather than assuming every sovereign bond market will behave like U.S. Treasuries.",
-      "publishedAt": "2026-07-21T03:40:00Z",
-      "sourceLabel": "Reuters · MSN",
-      "sourceUrl": "https://www.msn.com/en-us/money/markets/japan-bond-jitters-overshadow-takaichi-s-debut-economic-blueprint/ar-AA28lnQU",
-      "tags": [
-        "Rates",
-        "Bonds",
-        "Japan"
       ],
       "readingMinutes": 1,
       "editorial": true
