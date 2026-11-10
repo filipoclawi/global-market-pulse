@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T13:17:15Z",
-  "checkedAt": "2026-11-10T07:11:39Z",
-  "lastAttemptAt": "2026-11-10T07:11:39Z",
-  "dataAsOf": "2026-11-07",
+  "generatedAt": "2026-11-10T19:40:48Z",
+  "checkedAt": "2026-11-10T19:40:48Z",
+  "lastAttemptAt": "2026-11-10T19:40:48Z",
+  "dataAsOf": "2026-11-10",
   "windowStart": "2026-10-31",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -15,21 +15,35 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 5,
   "stories": [
     {
-      "id": "f53cf0dd8584a1dc",
-      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
-      "preview": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
-      "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+      "id": "f1407f606b6277d1",
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
       "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-07T01:41:36Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_campaign=rss&at_medium=RSS",
+      "publishedAt": "2026-11-10T16:45:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
       "tags": [
-        "Rates",
-        "Credit"
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "2249730c1b3ee43c",
+      "title": "US inflation higher than expected in October - here's what is happening with prices",
+      "preview": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
+      "summary": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-11-10T14:45:46Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -81,6 +95,22 @@
     }
   ],
   "archive": [
+    {
+      "id": "f53cf0dd8584a1dc",
+      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
+      "preview": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+      "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-07T01:41:36Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Credit"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "7631f5b12f13c5d9",
       "title": "Interest rates hiked to 4% in first increase in over three years",
@@ -366,21 +396,6 @@
       "publishedAt": "2026-10-14T15:57:11Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c305649p2d6o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "2249730c1b3ee43c",
-      "title": "US inflation rises more than expected - here's what is happening with prices",
-      "preview": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
-      "summary": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-10-14T15:26:14Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
       ],
