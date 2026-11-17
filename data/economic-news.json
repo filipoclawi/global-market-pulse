@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T22:19:08Z",
-  "checkedAt": "2026-11-17T07:50:05Z",
-  "lastAttemptAt": "2026-11-17T07:50:05Z",
-  "dataAsOf": "2026-11-10",
+  "generatedAt": "2026-11-17T20:50:59Z",
+  "checkedAt": "2026-11-17T20:50:59Z",
+  "lastAttemptAt": "2026-11-17T20:50:59Z",
+  "dataAsOf": "2026-11-17",
   "windowStart": "2026-11-07",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 1,
+  "freshStoryCount": 2,
   "stories": [
+    {
+      "id": "0ee5b55c756519d6",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-17T18:30:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "f1407f606b6277d1",
       "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
@@ -62,21 +77,6 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
-    {
-      "id": "226bfa0750649d32",
-      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
-      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-05T08:00:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
     }
   ],
   "archive": [
@@ -105,6 +105,21 @@
       "publishedAt": "2026-11-05T17:09:55Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "226bfa0750649d32",
+      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "summary": "European Central Bank published this update. Open the source for the underlying release and methodology.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-05T08:00:00Z",
+      "sourceLabel": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
       "tags": [
         "Rates"
       ],
@@ -1595,23 +1610,6 @@
         "Growth",
         "Inflation",
         "Europe"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
-    },
-    {
-      "id": "oil-supply-shock-2026-07",
-      "title": "Oil above $100 turns geopolitics back into an inflation problem",
-      "preview": "Brent crude moved back above $100 as threats spread to a second major Middle Eastern shipping route. The durable issue is a renewed supply shock that can lift inflation while weakening growth.",
-      "summary": "Brent crude rose back above $100 a barrel after Houthi forces claimed attacks on Saudi tankers and threatened the Red Sea route, adding a second chokepoint to disruption around the Strait of Hormuz. Oil had traded below $70 before the U.S. war with Iran, so the change is large enough to affect fuel, freight and production costs. U.S. gasoline moved above $4 a gallon, while diesel and jet-fuel costs were also rising. The path remains highly uncertain: spare capacity, alternative routes and any de-escalation could reverse prices, but prolonged disruption would feed into inflation and household purchasing power across many economies.",
-      "whyItMatters": "Oil shocks can hurt both stocks and nominal bonds by slowing growth while lifting inflation. That is precisely why a resilient allocation mixes growth assets with high-quality bonds of different maturities and, where appropriate, inflation-sensitive exposure rather than relying on one hedge for every downturn.",
-      "publishedAt": "2026-07-23T20:36:00Z",
-      "sourceLabel": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/07/23/nx-s1-5904519/a-new-threat-in-the-middle-east-sends-oil-over-100-a-barrel-again",
-      "tags": [
-        "Inflation",
-        "Energy",
-        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": true
