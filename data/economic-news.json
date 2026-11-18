@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T20:50:59Z",
-  "checkedAt": "2026-11-17T20:50:59Z",
-  "lastAttemptAt": "2026-11-17T20:50:59Z",
-  "dataAsOf": "2026-11-17",
-  "windowStart": "2026-11-07",
+  "generatedAt": "2026-11-18T07:20:57Z",
+  "checkedAt": "2026-11-18T07:20:57Z",
+  "lastAttemptAt": "2026-11-18T07:20:57Z",
+  "dataAsOf": "2026-11-18",
+  "windowStart": "2026-11-08",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "1e5e566e7321ccf7",
+      "title": "Higher fuel prices push UK inflation to 3.6%",
+      "preview": "There are also signs inflation is impacting the wider economy, with the cost raw materials and goods leaving factories climbing.",
+      "summary": "There are also signs inflation is impacting the wider economy, with the cost raw materials and goods leaving factories climbing.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-11-18T07:15:33Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "0ee5b55c756519d6",
       "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
@@ -62,21 +77,6 @@
       ],
       "readingMinutes": 1,
       "editorial": false
-    },
-    {
-      "id": "c015fed1fc92be23",
-      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
-      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-05T12:00:00Z",
-      "sourceLabel": "Bank of England",
-      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
     }
   ],
   "archive": [
@@ -105,6 +105,21 @@
       "publishedAt": "2026-11-05T17:09:55Z",
       "sourceLabel": "BBC News",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "c015fed1fc92be23",
+      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-05T12:00:00Z",
+      "sourceLabel": "Bank of England",
+      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
       "tags": [
         "Rates"
       ],
@@ -1593,23 +1608,6 @@
         "Trade",
         "Inflation",
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": true
-    },
-    {
-      "id": "euro-growth-forecast-cut-2026-q3",
-      "title": "Forecasters cut euro-area growth while inflation stays above target",
-      "preview": "ECB-survey respondents now expect only 0.6% euro-area growth in 2026, alongside 2.7% inflation. That mix argues for patience rather than a simple ‘rates down, bonds up’ narrative.",
-      "summary": "The ECB’s quarterly survey of professional forecasters cut expected euro-area growth for 2026 by 0.4 percentage points to 0.6%, and trimmed 2027 growth to 1.2%. Headline inflation expectations stayed at 2.7% for 2026 and rose slightly to 2.2% for 2027; longer-run inflation expectations remained anchored at 2.0%. Respondents expect most indirect effects of the Middle East war to be concentrated in 2026, with inflation risks tilted upward this year. Forecasts are not facts, but the combination of weak growth and sticky near-term inflation shows why the ECB has limited room for quick, uncomplicated easing.",
-      "whyItMatters": "For long-horizon allocation, slower growth supports the defensive role of high-quality bonds, while sticky inflation limits how much duration to add based on growth alone. Broad global equity exposure also reduces dependence on one region’s weak cycle.",
-      "publishedAt": "2026-07-24T08:00:00Z",
-      "sourceLabel": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260724~a099353951.en.html",
-      "tags": [
-        "Growth",
-        "Inflation",
-        "Europe"
       ],
       "readingMinutes": 1,
       "editorial": true
