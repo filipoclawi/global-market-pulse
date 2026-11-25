@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T08:24:43Z",
-  "checkedAt": "2026-11-25T08:24:43Z",
-  "lastAttemptAt": "2026-11-25T08:24:43Z",
+  "generatedAt": "2026-11-25T21:38:08Z",
+  "checkedAt": "2026-11-25T21:38:08Z",
+  "lastAttemptAt": "2026-11-25T21:38:08Z",
   "dataAsOf": "2026-11-25",
   "windowStart": "2026-11-15",
   "refreshCadenceHours": 6,
@@ -15,20 +15,68 @@
     "BBC News"
   ],
   "staleSources": [],
-  "briefingStale": true,
-  "freshStoryCount": 3,
+  "briefingStale": false,
+  "freshStoryCount": 6,
   "stories": [
     {
-      "id": "5ba5a5acaa7dc18b",
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "preview": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "id": "76214a449e0fbdc6",
+      "title": "What we know about Trump's Thanksgiving tariffs",
+      "preview": "Donald Trump is targeting China, the European Union and 12 other jurisdictions in a new round of tariffs.",
+      "summary": "Donald Trump is targeting China, the European Union and 12 other jurisdictions in a new round of tariffs.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-11-25T00:38:01Z",
+      "publishedAt": "2026-11-25T19:38:05Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/c3x29v11ed1xo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "4277ab8b356914d4",
+      "title": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "preview": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis…",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-25T13:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "tags": [
+        "Rates",
+        "Growth",
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "6830aad901d1c5d7",
+      "title": "Personal Income and Outlays, October 2026",
+      "preview": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less…",
+      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percentage of DPI–was 4.1 percent.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-25T13:30:00Z",
+      "sourceLabel": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "tags": [
+        "Rates",
+        "Growth"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "a9db4523cd6738d5",
+      "title": "Interest rate affect on Guernsey's housing market",
+      "preview": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
+      "summary": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-25T09:56:33Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/c6x29vne7lnko?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -44,21 +92,6 @@
       "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "289e0cede93c71bc",
-      "title": "How high is UK inflation and how will you be affected?",
-      "preview": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
-      "summary": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-11-18T19:37:27Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -80,6 +113,36 @@
     }
   ],
   "archive": [
+    {
+      "id": "5ba5a5acaa7dc18b",
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "preview": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-11-25T00:38:01Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "289e0cede93c71bc",
+      "title": "How high is UK inflation and how will you be affected?",
+      "preview": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
+      "summary": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-11-18T19:37:27Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "1e5e566e7321ccf7",
       "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
@@ -1577,36 +1640,6 @@
       "tags": [
         "Rates",
         "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "5032b8230b3b0553",
-      "title": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
-      "preview": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-30T11:00:00Z",
-      "sourceLabel": "Bank of England",
-      "sourceUrl": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
-      "tags": [
-        "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "a09738d032f294da",
-      "title": "Shell profits double as oil prices rise due to Iran war",
-      "preview": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
-      "publishedAt": "2026-07-30T09:16:29Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
