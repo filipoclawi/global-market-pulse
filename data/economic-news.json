@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T23:49:39Z",
-  "checkedAt": "2026-11-24T22:21:43Z",
-  "lastAttemptAt": "2026-11-24T22:21:43Z",
-  "dataAsOf": "2026-11-23",
-  "windowStart": "2026-11-14",
+  "generatedAt": "2026-11-25T08:24:43Z",
+  "checkedAt": "2026-11-25T08:24:43Z",
+  "lastAttemptAt": "2026-11-25T08:24:43Z",
+  "dataAsOf": "2026-11-25",
+  "windowStart": "2026-11-15",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -16,8 +16,23 @@
   ],
   "staleSources": [],
   "briefingStale": true,
-  "freshStoryCount": 2,
+  "freshStoryCount": 3,
   "stories": [
+    {
+      "id": "5ba5a5acaa7dc18b",
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "preview": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-11-25T00:38:01Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "328610b8abcb7bbe",
       "title": "Philip R. Lane: Climate change and monetary policy",
@@ -49,22 +64,6 @@
       "editorial": false
     },
     {
-      "id": "1e5e566e7321ccf7",
-      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-      "preview": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
-      "summary": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-18T13:17:06Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates",
-        "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
       "id": "0ee5b55c756519d6",
       "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
       "preview": "European Central Bank published this update. Open the source for the underlying release and methodology.",
@@ -81,6 +80,22 @@
     }
   ],
   "archive": [
+    {
+      "id": "1e5e566e7321ccf7",
+      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+      "preview": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+      "summary": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-18T13:17:06Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates",
+        "Inflation"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "65e2fa1a9c93b3ab",
       "title": "Boris Vujčić: Financial Stability Review - November 2026",
@@ -1592,21 +1607,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Inflation"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "f6fb8d5d76a9a3e2",
-      "title": "US interest rates held for fifth time in a row",
-      "preview": "The Federal Reserve's decision, which was broadly expected, means rates remain between the 3.5% and 3.75%.",
-      "summary": "The Federal Reserve's decision, which was broadly expected, means rates remain between the 3.5% and 3.75%.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-29T19:30:40Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
