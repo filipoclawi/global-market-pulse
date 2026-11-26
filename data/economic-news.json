@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T08:09:43Z",
-  "checkedAt": "2026-11-26T08:09:43Z",
-  "lastAttemptAt": "2026-11-26T08:09:43Z",
+  "generatedAt": "2026-11-26T21:27:01Z",
+  "checkedAt": "2026-11-26T21:27:01Z",
+  "lastAttemptAt": "2026-11-26T21:27:01Z",
   "dataAsOf": "2026-11-26",
   "windowStart": "2026-11-16",
   "refreshCadenceHours": 6,
@@ -19,14 +19,14 @@
   "freshStoryCount": 6,
   "stories": [
     {
-      "id": "5ba5a5acaa7dc18b",
-      "title": "US announces new tariffs on host of countries including China",
-      "preview": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "id": "884d8191bee678b7",
+      "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+      "preview": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
+      "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
       "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
-      "publishedAt": "2026-11-26T04:10:58Z",
+      "publishedAt": "2026-11-26T19:55:58Z",
       "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Trade"
       ],
@@ -113,6 +113,21 @@
     }
   ],
   "archive": [
+    {
+      "id": "5ba5a5acaa7dc18b",
+      "title": "US announces new tariffs on host of countries including China",
+      "preview": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "whyItMatters": "Trade restrictions can raise costs and weaken growth at the same time. This argues for geographic diversification and for avoiding a portfolio that depends on one inflation or policy outcome.",
+      "publishedAt": "2026-11-26T04:10:58Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
     {
       "id": "76214a449e0fbdc6",
       "title": "What we know about Trump's Thanksgiving tariffs",
@@ -1624,22 +1639,6 @@
         "Rates",
         "Growth",
         "Trade"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "5a0547ffcaa7a57e",
-      "title": "Personal Income and Outlays, June 2026",
-      "preview": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal…",
-      "summary": "Personal income increased $54.9 billion (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate-personal saving as a percentage of DPI-was 2.7 percent. Full Text",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-30T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
-      "tags": [
-        "Rates",
-        "Growth"
       ],
       "readingMinutes": 1,
       "editorial": false
