@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T21:27:01Z",
-  "checkedAt": "2026-11-26T21:27:01Z",
-  "lastAttemptAt": "2026-11-26T21:27:01Z",
+  "generatedAt": "2026-11-27T08:20:31Z",
+  "checkedAt": "2026-11-27T08:20:31Z",
+  "lastAttemptAt": "2026-11-27T08:20:31Z",
   "dataAsOf": "2026-11-26",
-  "windowStart": "2026-11-16",
+  "windowStart": "2026-11-17",
   "refreshCadenceHours": 6,
   "sourcesChecked": [
     "Federal Reserve",
@@ -29,6 +29,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "d13b8786a9d4398a",
+      "title": "Scots react to news of rising energy prices",
+      "preview": "Scots describe how an increase in energy bills will affect them.",
+      "summary": "Scots describe how an increase in energy bills will affect them.",
+      "whyItMatters": "Persistent inflation can keep bond yields higher and reduce the diversification benefit of nominal bonds during supply shocks. The practical response is usually broad diversification and an intentional duration mix, not a reaction to one data point.",
+      "publishedAt": "2026-11-25T16:56:47Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cmqlq07d71yko?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Inflation"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -62,21 +77,6 @@
       "tags": [
         "Rates",
         "Growth"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "a9db4523cd6738d5",
-      "title": "Interest rate affect on Guernsey's housing market",
-      "preview": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
-      "summary": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-11-25T09:56:33Z",
-      "sourceLabel": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/c6x29vne7lnko?at_campaign=rss&at_medium=RSS",
-      "tags": [
-        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -139,6 +139,21 @@
       "sourceUrl": "https://www.bbc.co.uk/news/videos/c3x29v11ed1xo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Trade"
+      ],
+      "readingMinutes": 1,
+      "editorial": false
+    },
+    {
+      "id": "a9db4523cd6738d5",
+      "title": "Interest rate affect on Guernsey's housing market",
+      "preview": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
+      "summary": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
+      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
+      "publishedAt": "2026-11-25T09:56:33Z",
+      "sourceLabel": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/c6x29vne7lnko?at_campaign=rss&at_medium=RSS",
+      "tags": [
+        "Rates"
       ],
       "readingMinutes": 1,
       "editorial": false
@@ -1622,23 +1637,6 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_campaign=rss&at_medium=RSS",
       "tags": [
         "Rates"
-      ],
-      "readingMinutes": 1,
-      "editorial": false
-    },
-    {
-      "id": "9d7146f970cd6602",
-      "title": "GDP (Advance Estimate), 2nd Quarter 2026",
-      "preview": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In…",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second quarter were increases in consumer spending, investment, and exports that were partly offset by a decrease in government spending. Imports, which are a subtraction in the calculation of GDP, increased. Full Text",
-      "whyItMatters": "Bond prices and borrowing costs are most sensitive to the path of policy rates. For a long-term portfolio, the useful question is whether the news changes expected inflation and the likely neutral rate—not whether one meeting surprises markets.",
-      "publishedAt": "2026-07-30T12:30:00Z",
-      "sourceLabel": "U.S. Bureau of Economic Analysis",
-      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
-      "tags": [
-        "Rates",
-        "Growth",
-        "Trade"
       ],
       "readingMinutes": 1,
       "editorial": false
